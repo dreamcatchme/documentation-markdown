@@ -16,12 +16,7 @@ Compass should have the following components to be operational:
 - IRI Instance
 - Signing server (optional)
 
-<Image
-src={`/static/docs/compass/compass.png`}
-width={750}
-height={504}
-caption="Diagram showing the Compass components"
-/>
+![System diagram of the Compass](../compass.png)
 
 ### Interacting with Compass 
 As above, Compass has interactions with two external services. While it interacts with other entities, users do not interact with Compass directly apart from the initial setup.

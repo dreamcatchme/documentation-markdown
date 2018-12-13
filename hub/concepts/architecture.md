@@ -15,12 +15,7 @@ An operational IOTA Hub should have the following components to be operational:
 - Exposed gRPC calls
 - Signing server (optional)
 
-<Image
-src={`/static/docs/hub/iota_hub.png`}
-width={750}
-height={466}
-caption="Diagram showing the Hub components"
-/>
+![Diagram of the IOTA Hub](../iota_hub.png)
 
 
 ### Interacting with Hub 

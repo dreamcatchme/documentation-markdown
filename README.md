@@ -2,7 +2,7 @@
 This repository contains user friendly documentation for the different software of the IOTA project. 
 
 ## Completed Sections
-- [IOTA Reference Implementation](iri/README.md)
+- [IRI (Node)](iri/README.md)
 - [Hub](hub/README.md)
 - [Compass](compass/README.md)
 

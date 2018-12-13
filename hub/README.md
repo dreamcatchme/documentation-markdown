@@ -19,7 +19,7 @@ The following should provide the required information to understand and use the 
     - [Create User Example](how-to-guides/create-user.md)
     
 - Concepts
-    - [Hub Architecture](concepts/hub-architecture.md)
+    - [Hub Architecture](concepts/architecture.md)
     
     - [Hub Functions](concepts/components.md)
     

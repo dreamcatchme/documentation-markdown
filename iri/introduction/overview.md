@@ -16,9 +16,9 @@ By [running the IRI](/how-to-guides/running-the-iri.md), you have your own direc
 
 You can choose to run two types of IRI node, depending on your needs and amount of memory space on your computer:
 
-* **Permanode:** An IRI node that keeps a record of all valid transactions in its ledger. You can run a permanode by setting the `LOCAL_SNAPSHOTS_ENABLED` configuration parameter to `false`. Run a permanode if you want to keep a record of all valid transactions.
-* **Local snapshot node:** An IRI node that removes transactions from its ledger at regular intervals by creating a [local snapshot](/concepts/local-snapshot.md). You can run a local snapshot node by setting the `LOCAL_SNAPSHOTS_ENABLED` configuration parameter to `true` and by setting the other `LOCAL_SNAPSHOT` configuration options. Run a local snapshot node if you don't care about keeping a record of all valid transactions and you want to keep the size of your IRI node's ledger small.
+* **Permanode:** An IRI node that keeps a record of all valid transactions in its ledger. Run a permanode if you want to keep a record of all valid transactions. You can run a permanode by setting the `LOCAL_SNAPSHOTS_ENABLED` configuration parameter to `false`. 
+* **Local snapshot node:** An IRI node that removes transactions from its ledger at regular intervals by creating a [local snapshot](/concepts/local-snapshot.md). Run a local snapshot node if you don't care about keeping a record of all valid transactions and you want to keep the size of your IRI node's ledger small. You can run a local snapshot node by setting the `LOCAL_SNAPSHOTS_ENABLED` configuration parameter to `true` and by setting the other `LOCAL_SNAPSHOT` configuration options.
 
 ## Limitations
 
-The IRI is not wallet software, so it doesn't create or sign transactions. To create or sign transactions, you must use a client such as a the Trinity wallet or a client library.
+The IRI is not client software, so it doesn't create or sign transactions (it's not a wallet). To create or sign transactions, you must use client software such as the Trinity wallet or a client library.

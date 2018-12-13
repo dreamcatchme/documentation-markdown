@@ -17,7 +17,7 @@ The IRI finds two tip transaction hashes for clients by selecting a subgraph of 
 
 ### Subgraph
 
-A subgraph is a section of the ledger that contains all transactions between a user-defined milestone transaction (`depth`) and new tip transactions.
+A subgraph is a section of the ledger that contains all transactions between a user-defined milestone transaction with a specified index (`depth`) and new tip transactions.
 
 The user-defined milestone transaction is calculated by doing the following:
 
@@ -31,9 +31,9 @@ During the weighted random walk, the IRI selects a path from a user-defined mile
 
 The cumulative weight is a rating that the IRI gives to a transaction, depending on the following variables:
 * **Future set:** Transactions that directly or indirectly reference the transaction
-* **[`alpha` configuration parameter](/references/iri-configuration-options.md#alpha):** that affects the randomness of the tip selection process
+* **[`alpha` configuration parameter](/references/iri-configuration-options.md#alpha):** A number that affects the randomness of the tip selection process
 
-The IRI gives a higher rating to a transaction with a larger future set because it has a higher probability of being confirmed in the global ledger state than one with a smaller future set. However, if the IRI were to rate transactions based only on this variable, the ledger would become a long, narrow chain of transactions, which are referenced by many other transactions. This situation would slow the rate of new transactions being appended to the ledger because new transactions would have to wait until they have a large enough future set before other transactions will reference them. So, to increase the speed at which new transactions are appended to the ledger, the IRI also uses the `alpha` configuration parameter to calculate the cumulative weight.
+The IRI gives a high rating to a transaction with a large future set because it has a higher probability of being confirmed in the [distributed ledger](/concepts/the-distributed-ledger.md) than one with a small future set. However, if the IRI were to rate transactions based only on this variable, the ledger would become a long, narrow chain of transactions, which are referenced by many other transactions. This situation would slow the rate of new transactions being appended to the ledger because new transactions would have to wait until they had a large enough future set before other transactions would reference them. So, to increase the speed at which new transactions are appended to the ledger, the IRI also uses the `alpha` configuration parameter to calculate the cumulative weight.
 
 The `alpha` configuration parameter makes sure that the cumulative weight of each transaction is calculated with an element of randomness. This parameter allows the IRI to select some transactions that have a small future set and by doing so, increase the speed at which new transactions are appended to the ledger.  
 

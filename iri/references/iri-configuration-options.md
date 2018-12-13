@@ -6,7 +6,7 @@ You can choose to configure the IRI by specifying the configuration options in t
 * As flags in the command line
 * As parameters in a file with the .iri extension (IRI configuration file)
 
-| **Configuration options** |   **Description**| **Accepted values** | **Default**|**Notes** |
+| **Configuration options** |   **Description**| **Accepted values** | **Default values**|**Notes** |
 | :------------------------ | :--------------- | :--------- | :--------| :------------|
 |<a name="alpha"></a>`--alpha`| Randomness of the tip selection process             |   number between 0 and infinity  |  0.001     | The number 0 is the most random and infinity is the most deterministic|
 |<a name="api-host"></a> `--api-host`| Host on which the API will listen to| string|localhost | Set this parameter to 0.0.0.0 to accept any host|
@@ -48,3 +48,21 @@ You can choose to configure the IRI by specifying the configuration options in t
 |<a name="zmq-ipc"></a>`--zmq-ipc` |Path that is used to communicate with ZMQ in IPC| string|  ipc://iri|
 |<a name="zmq-port"></a> `--zmq-port `|Port that is used to connect to the ZMQ feed |string | 5556|
 | | | | |
+
+# Flag that determines if local snapshots are enabled
+LOCAL_SNAPSHOTS_ENABLED = true
+
+# Flag that determines if pruning of old data is enabled
+LOCAL_SNAPSHOTS_PRUNING_ENABLED = true
+
+# Only prune data that precedes the local snapshot by n milestones
+LOCAL_SNAPSHOTS_PRUNING_DELAY = 2000
+
+# Take local snapshots every n milestones if the node is fully synced
+LOCAL_SNAPSHOTS_INTERVAL_SYNCED = 10
+
+# Take local snapshots every n milestones if the node is syncing
+LOCAL_SNAPSHOTS_INTERVAL_UNSYNCED = 1000
+
+# Number of milestones to keep
+LOCAL_SNAPSHOTS_DEPTH = 100

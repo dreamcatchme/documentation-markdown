@@ -12,11 +12,13 @@ This section should give users information about how IOTA node software (IRI) wo
     - [Finding neighbors](how-to-guides/finding-neighbors.md)
     - [Running the IRI](how-to-guides/running-the-iri.md)
     - [Updating the IRI](how-to-guides/updating-the-iri.md)
+    - [Troubleshooting the IRI](how-to-guides/troubleshooting-the-iri.md)
     - [Interacting with the IRI](how-to-guides/interacting-with-the-iri.md)
     - [Subscribing to events in the IRI](how-to-guides/subscribing-to-events-in-the-iri.md)
   
 - Concepts
     - [The distributed ledger](concepts/the-distributed-ledger.md)
+    - [Local snapshots](concepts/local-snapshots.md)
     - [Tip selection](concepts/tip-selection.md)
     - [Transaction validation](concepts/transaction-validation.md)
     - [Zero message queue](concepts/zero-message-queue.md)

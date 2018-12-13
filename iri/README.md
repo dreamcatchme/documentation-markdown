@@ -18,7 +18,7 @@ This section should give users information about how IOTA node software (IRI) wo
   
 - Concepts
     - [The distributed ledger](concepts/the-distributed-ledger.md)
-    - [Local snapshots](concepts/local-snapshots.md)
+    - [Local snapshots](concepts/local-snapshot.md)
     - [Tip selection](concepts/tip-selection.md)
     - [Transaction validation](concepts/transaction-validation.md)
     - [Zero message queue](concepts/zero-message-queue.md)

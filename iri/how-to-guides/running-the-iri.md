@@ -19,7 +19,7 @@ After downloading the IRI, you need to run it to start interacting with an IOTA 
     * 60GB of free disk space
     * An public IP address: Either a static IP address or a dynamic IP address that's connected to a dynamic DNS such as [noip.com](https://www.noip.com/remote-access)
 
-* You must have the [URLs or the IP addresses of at least three neighbor nodes](/how-to-guides/finding-neighbors.md) who are also running the IRI on the same IOTA network
+* You must have the [URLs or the IP addresses of at least three neighbor nodes](/iri/how-to-guides/finding-neighbors.md) who are also running the IRI on the same IOTA network
 
 * By default, the IRI uses the following ports. You must map these ports to computer's public IP address.
     * UDP neighbor peering port: 14600
@@ -40,7 +40,7 @@ After downloading the IRI, you need to run it to start interacting with an IOTA 
     ```
 
     **Note:** The JAVA_OPTIONS variable contains commands that optimise the Java virtual machine for the IRI.
-2. Configure the IRI by adding the [configuration options](/references/iri-configuration-options.md) either in a .iri file in the same directory as your IRI Java file or in the command line. Any configuration options that you add in the command line override the parameters in the IRI configuration file.
+2. Configure the IRI by adding the [configuration options](/iri/references/iri-configuration-options.md) either in a .iri file in the same directory as your IRI Java file or in the command line. Any configuration options that you add in the command line override the parameters in the IRI configuration file.
 
 **Note:** The only configuration option that you **must** add is the `PORT` parameter.
 
@@ -61,7 +61,7 @@ After downloading the IRI, you need to run it to start interacting with an IOTA 
 
 ## Running the IRI in a Docker container
 
-1. Configure the IRI by adding the [configuration options](/references/iri-configuration-options.md) either in a .iri file in the same directory as your IRI Java file or in the command line. Any configuration options that you add in the command line override the parameters in the IRI configuration file.
+1. Configure the IRI by adding the [configuration options](/iri/references/iri-configuration-options.md) either in a .iri file in the same directory as your IRI Java file or in the command line. Any configuration options that you add in the command line override the parameters in the IRI configuration file.
 
     **Note:** The only configuration option that you **must** add is the `PORT`
 2. Run the IRI:
@@ -115,7 +115,7 @@ $ curl -s http://localhost:14265 -X POST -H 'X-IOTA-API-Version: 1' -H 'Content-
 
 ## Next steps
 
-* [Interacting with the IRI](/how-to-guides/interacting-with-the-iri.md)
-* [Subscribing to events in the IRI](/how-to-guides/subscribing-to-events-in-the-iri.md)
+* [Interacting with the IRI](/iri/how-to-guides/interacting-with-the-iri.md)
+* [Subscribing to events in the IRI](/iri/how-to-guides/subscribing-to-events-in-the-iri.md)
 
 

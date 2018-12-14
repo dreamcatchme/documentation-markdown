@@ -79,4 +79,4 @@ Instead of downloading the pre-built IRI Java file, you may want to build the fi
 
 ## Next steps
 
-* [Running the IRI on Linux](/how-to-guides/running-the-iri-on-linux.md)
+* [Running the IRI on Linux](/iri/how-to-guides/running-the-iri-on-linux.md)

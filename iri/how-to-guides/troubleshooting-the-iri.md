@@ -12,7 +12,7 @@ See some details about this error and the solution in this [Stack Overflow answe
 
 ## The IRI won't synchronize with its neighbors
 
-* [Make sure that you have either 6 or 7 neighbors](/how-to-guides/finding-neighbors.md)
+* [Make sure that you have either 6 or 7 neighbors](/iri/how-to-guides/finding-neighbors.md)
 
 * Make sure that the IRI and its neighbors are sending data among each other. Use the getNeighbors API method to see both the incoming transactions (`numberOfAllTransactions`) and the number of outgoing transactions (`numberOfSentTransactions`):
     ```bash

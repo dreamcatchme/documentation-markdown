@@ -1,6 +1,6 @@
 # Subscribing to events in the IRI
 
-The IRI publishes events such as transaction confirmations to the [zero message queue (ZMQ)](/concepts/zero-message-queue.md). The ZMQ allows clients outside of the IRI to access these events in real time, allowing you to create applications that receive data directly from the IRI.
+The IRI publishes events such as transaction confirmations to the [zero message queue (ZMQ)](/iri/concepts/zero-message-queue.md). The ZMQ allows clients outside of the IRI to access these events in real time, allowing you to create applications that receive data directly from the IRI.
 
 To receive data directly from the IRI, a client must subscribe to an event. You may want to subscribe to events to do the following:
 
@@ -71,4 +71,4 @@ To use the code samples in this guide, your computer must have the following:
     ```
 ## Next steps
 
-Use your new knowledge of the ZMQ to build an application that monitors the IRI for other [events](/references/zmq-events.md). 
+Use your new knowledge of the ZMQ to build an application that monitors the IRI for other [events](/iri/references/zmq-events.md). 

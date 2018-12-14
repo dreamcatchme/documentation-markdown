@@ -2,13 +2,15 @@
 
  IRI nodes in an IOTA network host a ledger as a record of all valid transactions that each of them receives. In the IRI, the ledger is an embedded, append-only database called [RocksDB](https://rocksdb.org/). The ledger is append-only to stop the history from being changed, making all transactions immutable.
 
+ ## How it works
+
  An IOTA network is asynchronous, meaning that an IRI node in the network can append transaction to its ledger at any time without waiting for its neighbors to receive them. This asynchronisity allows transactions to be appended to the ledger at a faster rate than if the network were synchronous, meaning that each IRI node's ledger can be in a different state at any time.
 
-When the IRI [receives and validates a transaction](/concepts/transaction-validation.md), that [transaction and its metadata](/references/data-in-the-ledger.md) are appended to the ledger to form that ledger's local state. It's this local state that clients interact with when they connect to the IRI node.
+When the IRI [receives and validates a transaction](/iri/concepts/transaction-validation.md), that [transaction and its metadata](/iri/references/data-in-the-ledger.md) are appended to the ledger to form that ledger's local state. It's this local state that clients interact with when they connect to the IRI node.
 
 Because each IRI node's ledger has it's own local state, all IRI nodes in an IOTA network must have a way of agreeing on the state of each other's ledger so that all ledgers are consistent about which transactions were made, validated and confirmed. This consistency forms the **distributed ledger** that is agreed on by the majority of IRI nodes and distributed among each of them, allowing clients to interact with the same ledger regardless of which IRI node that they connect to.
 
-## Agreement on the state of the ledger
+### Agreement on the state of the ledger
 
 For transactions to be confirmed, the majority of the IRI nodes in an IOTA network must agree on the state of each other's ledger, known as the global state.
 
@@ -17,7 +19,7 @@ To reach consensus about the global state of all ledgers in the network, IRI nod
 Gossip protocol
 A peer-to-peer communication protocol that allows computers in the same network to share data.
 
-When an IRI node receives a transaction or performs [tip selection](/tip-selection.md), it must [validate the transaction](/transaction-validation.md). If an IRI node is missing any information about a transaction, the IRI node can ask its neighbors for it through the gossip protocol, and if its neighbors are missing the information, those neighbors will ask their neighbors, and so on.
+When an IRI node receives a transaction or performs [tip selection](/iri/concepts/tip-selection.md), it must [validate the transaction](/iri/concepts/transaction-validation.md). If an IRI node is missing any information about a transaction, the IRI node can ask its neighbors for it through the gossip protocol, and if its neighbors are missing the information, those neighbors will ask their neighbors, and so on.
 
 When the majority of IRI nodes have the same valid transactions in their ledgers, they have reached consensus on the global state of the distributed ledger.
 

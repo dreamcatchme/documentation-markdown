@@ -1,10 +1,10 @@
 # Sending requests to the IRI
 
-When you [run the IRI (IOTA reference implementation)](/running-the-iri.md), it waits to receive transactions from clients on the API port that you chose in the [`PORT` configuration parameter](/references/iri-configuration-options.md#port).
+When you [run the IRI (IOTA reference implementation)](/iri/how-to-guides/running-the-iri.md), it waits to receive transactions from clients on the API port that you chose in the [`PORT` configuration parameter](/iri/references/iri-configuration-options.md#port).
 
 The IRI always accepts REST API requests to its local IP address from computers on the same network.
 
-**Note:** If the [`REMOTE` configuration parameter](/references/iri-configuration-options.md#remote) is set to `true`, anyone can connect to the IRI through its public URL or its public IP address.
+**Note:** If the [`REMOTE` configuration parameter](/iri/references/iri-configuration-options.md#remote) is set to `true`, anyone can connect to the IRI through its public URL or its public IP address.
 
 In the following how-to guide we use NodeJS.
 
@@ -81,7 +81,7 @@ To use the code samples in this guide, your computer must have the following:
 ## Next steps
 
 * Use your new knowledge of the [IRI API](https://iota.readme.io/v1.5.5/reference) to build an application that sends data to the IRI and requests from the IRI.
-* [Subscribe to real-time events](/how-to-guides/subscribing-to-events-in-the-iri.md) that an IRI node publishes to a message queue.
+* [Subscribe to real-time events](/iri/how-to-guides/subscribing-to-events-in-the-iri.md) that an IRI node publishes to a message queue.
 
 
 

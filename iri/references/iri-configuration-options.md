@@ -26,7 +26,7 @@ You can choose to configure the IRI by specifying the configuration options in t
 |<a name="max-get-trytes"></a>`--max-get-trytes` |Maximum number of trytes that may be returned by the getTrytes API call  |number |10,000 | If the number of transactions found exceeds this number, an error is returned
 |<a name="max-peers"></a>`--max-peers` |Maximum number of non-mutually-tethered connections |number |0 |This option is available only on the IOTA testnet network
 |<a name="max-requests-list"></a>`--max-requests-list` |Maximum number of parameters in an API call |number |1,000 | If the number of parameters exceeds this number, an error is returned
-|<a name="neighbors"></a>`-n`, `--neighbors` |Urls and IP addresses of [neighbor nodes](/how-to-guides/finding-neighbors.md) |array of strings |[ ] |
+|<a name="neighbors"></a>`-n`, `--neighbors` |Urls and IP addresses of [neighbor nodes](/iri/how-to-guides/finding-neighbors.md) |array of strings |[ ] |
 |<a name="p-drop-cache"></a>`--p-drop-cache` |Probability of losing recently seen transactions in the network cache | number between 0 and 1|0.02 |
 |<a name="p-drop-transaction"></a>  `--p-drop-transaction`|Probability of losing a received transaction |number between 0 and 1 |0.0 | This option is available only on the IOTA testnet network
 |<a name="p-propagate-request"></a>`--p-propagate-request` |Probability of the IRI requesting a missing transaction from a neighbor | number|0.01 | This number should be low to avoid the IRI requesting non-existing transactions that spam the network
@@ -44,25 +44,13 @@ You can choose to configure the IRI by specifying the configuration options in t
 |<a name="send-limit"></a> `--send-limit` |Maximum number of packets that may be sent by the IRI in a one-second interval |number | -1|If this number is below 0 then there is no limit
 |<a name="tcp-receiver-port"></a>`-t`, `--tcp-receiver-port` |Port from which the IRI receives TCP data packets from neighbors |string | 15600|
 |<a name="udp-receiver-port"></a>`-u`, `--udp-receiver-port` |Port from which the IRI receives UDP data packets from neighbors |string |14600 |
-|<a name="zmq-enabled"></a>  `--zmq-enabled` | Enable [zero message queue](/concepts/zero-message-queue.md) subscriptions| boolean|false |
+|<a name="zmq-enabled"></a>  `--zmq-enabled` | Enable [zero message queue](/iri/concepts/zero-message-queue.md) subscriptions| boolean|false |
 |<a name="zmq-ipc"></a>`--zmq-ipc` |Path that is used to communicate with ZMQ in IPC| string|  ipc://iri|
 |<a name="zmq-port"></a> `--zmq-port `|Port that is used to connect to the ZMQ feed |string | 5556|
-| | | | |
-
-# Flag that determines if local snapshots are enabled
-LOCAL_SNAPSHOTS_ENABLED = true
-
-# Flag that determines if pruning of old data is enabled
-LOCAL_SNAPSHOTS_PRUNING_ENABLED = true
-
-# Only prune data that precedes the local snapshot by n milestones
-LOCAL_SNAPSHOTS_PRUNING_DELAY = 2000
-
-# Take local snapshots every n milestones if the node is fully synced
-LOCAL_SNAPSHOTS_INTERVAL_SYNCED = 10
-
-# Take local snapshots every n milestones if the node is syncing
-LOCAL_SNAPSHOTS_INTERVAL_UNSYNCED = 1000
-
-# Number of milestones to keep
-LOCAL_SNAPSHOTS_DEPTH = 100
+|<a name="local-snapshots-enabled"></a>`LOCAL_SNAPSHOTS_ENABLED`   | Enable the creation of local snapshots |boolean  | true  | This parameter must be set to `true` for the IRI to read any other `LOCAL_SNAPSHOTS` parameters|
+|<a name="local-snapshots-pruning-enabled"></a>`LOCAL_SNAPSHOTS_PRUNING_ENABLED`  |  Enable the deletion of confirmed transactions from the ledger  | true | Confirmed transactions are deleted if they were confirmed by a milestone that is older than the sum of `LOCAL_SNAPSHOTS_DEPTH` + `LOCAL_SNAPSHOTS_PRUNING_DELAY`.  |
+|<a name="local-snapshots-depth"></a>`LOCAL_SNAPSHOTS_DEPTH`  | Amount of milestone transactions to keep in the ledger | number starting from 100 | 100 | |
+|<a name="local-snapshots-pruning-delay"></a>`LOCAL_SNAPSHOTS_PRUNING_DELAY`  | Amount of milestone transactions to keep in the ledger   | number starting from 50,000  | 50,000 |  |
+|<a name="local-snapshots-internal-synced"></a>`LOCAL_SNAPSHOTS_INTERVAL_SYNCED`  | Interval, in milestone transactions, at which local snapshots are taken if the ledger is fully synchronized  |number| 10   | |
+|<a name="local-snapshots-internal-unsynced"></a>`LOCAL_SNAPSHOTS_INTERVAL_UNSYNCED`   | Interval, in milestone transactions, at which local snapshots are taken if the ledger is not fully synchronized  |number| 1,000  | |
+|<a name="local-snapshots-base-path"></a>`LOCAL_SNAPSHOTS_BASE_PATH`  |  Path to the snapshot file, without the file extension. |  string |  mainnet   | Prepends the `.snapshot.meta` and `.snapshot.state` files with the value of this parameter. For the default value, the files are named `mainnet.snapshot.meta` and `mainnet.snapshot.state`. You can specify a directory for the files to be added to by doing the following: `<directory name>/<file name>`, which results in `folderpath/filename.snapshot.meta`. | |

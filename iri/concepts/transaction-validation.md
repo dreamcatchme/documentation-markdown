@@ -23,7 +23,7 @@ When the IRI receives a new transaction, the transaction validator checks the tr
 
 ## Validation during the tip selection process
 
-When clients asks a node for tip transactions, the IRI performs the [tip selection process](/concepts/tip-selection.md).
+When clients asks a node for tip transactions, the IRI performs the [tip selection process](/iri/concepts/tip-selection.md).
 
 The bundles of each transaction that the IRI traverses during the tip selection process are checked by the bundle validator and the ledger validator.
 

@@ -1,11 +1,24 @@
 # Local snapshot
 
-Short intro to local snapshots, why they're necessary, and how to use them.
+A local snapshot is the process in which an IRI node deletes old transactions from its ledger.
 
+Over time, the [ledger](/iri/concepts/the-distributed-ledger.md) of an IRI node accumulates many valid transactions, which often cause the size of the ledger to become larger than the IRI node's available memory. To stop the ledger from becoming too large, you can choose to create local snapshots at regular intervals. This option is enabled by default in the [`LOCAL_SNAPSHOTS_ENABLED` configuration parameter](/iri/references/iri-configuration-options#local-snapshots-enabled). 
 
-//================TODO=============================================
-TO ADD:
-It will not weaken the security of the tangle, since its consensus is fundamentally different from other DLT’s. Concepts like “longest chain wins” (which is the basic idea behind most blockchain based consensus models) doesn’t exist in IOTA and in fact it even strengthens the security because one of the potential attack vectors (“mining” a parasitic sidetangle for a long time in secret and then publish it to the network) will be less effective if a large number of nodes have already pruned the very old transactions that this side tangle would have to attach to.
+**Note:** Local snapshots are available only in version 1.6.0 and higher of the IRI.
+
+## How it works
+
+To create a local snapshot, the IRI deletes old transactions and keeps only a subgraph of newer transactions, increasing the amount of free storage space in the ledger.
+
+### Subgraph
+
+A subgraph is a section of the ledger that contains all transactions between a user-defined milestone transaction and new tip transactions.
+
+For local snapshots, the user-defined milestone transaction is calculated by doing the following:
+
+[`LOCAL_SNAPSHOTS_DEPTH` confirguration parameter](/iri/iri-configuration-options#local-snapshots-depth) + [`LOCAL_SNAPSHOTS_PRUNING_DELAY` confirguration parameter](/iri/iri-configuration-options#local-snapshots-pruning-delay)
+
+The result of this calculation is equal to the amount of milestone transactions that the IRI keeps in the subgraph.
 
 QUESTIONS:
 

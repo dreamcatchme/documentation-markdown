@@ -4,28 +4,28 @@ This section should give users information about how IOTA node software (IRI) wo
 
 ## Documentation
 - Introduction
-    - [Overview](introduction/overview.md)
+    - [Overview](/iri/introduction/overview.md)
   
 - How-to guides
-    - [Downloading the IRI on Linux](how-to-guides/downloading-the-iri-on-linux.md)
+    - [Downloading the IRI on Linux](/iri/how-to-guides/downloading-the-iri-on-linux.md)
     - [Downloading the IRI from a Docker container for MacOSX, Windows, and Linux operating systems](how-to-guides/downloading-the-iri-from-a-docker-container.md)
-    - [Finding neighbors](how-to-guides/finding-neighbors.md)
-    - [Running the IRI](how-to-guides/running-the-iri.md)
-    - [Updating the IRI](how-to-guides/updating-the-iri.md)
-    - [Troubleshooting the IRI](how-to-guides/troubleshooting-the-iri.md)
-    - [Interacting with the IRI](how-to-guides/interacting-with-the-iri.md)
-    - [Subscribing to events in the IRI](how-to-guides/subscribing-to-events-in-the-iri.md)
+    - [Finding neighbors](/iri/how-to-guides/finding-neighbors.md)
+    - [Running the IRI](/iri/how-to-guides/running-the-iri.md)
+    - [Updating the IRI](/iri/how-to-guides/updating-the-iri.md)
+    - [Troubleshooting the IRI](/iri/how-to-guides/troubleshooting-the-iri.md)
+    - [Interacting with the IRI](/iri/how-to-guides/interacting-with-the-iri.md)
+    - [Subscribing to events in the IRI](/iri/how-to-guides/subscribing-to-events-in-the-iri.md)
   
 - Concepts
-    - [The distributed ledger](concepts/the-distributed-ledger.md)
-    - [Local snapshots](concepts/local-snapshot.md)
-    - [Tip selection](concepts/tip-selection.md)
-    - [Transaction validation](concepts/transaction-validation.md)
-    - [Zero message queue](concepts/zero-message-queue.md)
+    - [The distributed ledger](/iri/concepts/the-distributed-ledger.md)
+    - [Local snapshot](/iri/concepts/local-snapshot.md)
+    - [Tip selection](/iri/concepts/tip-selection.md)
+    - [Transaction validation](/iri/concepts/transaction-validation.md)
+    - [Zero message queue](/iri/concepts/zero-message-queue.md)
 
 - References
-    - [API reference](references/api-reference.md)
-    - [Data in the ledger](references/data-in-the-ledger.md)
-    - [IRI configuration options](references/iri-configuration-options.md)
-    - [ZMQ events](references/zmq-events.md)
+    - [Data in the snapshot files](/iri/references/data-in-the-snapshot-files.md)
+    - [Data in the ledger](/iri/references/data-in-the-ledger.md)
+    - [IRI configuration options](/iri/references/iri-configuration-options.md)
+    - [ZMQ events](/iri/references/zmq-events.md)
 

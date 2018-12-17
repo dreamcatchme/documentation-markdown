@@ -12,6 +12,6 @@ This repository contains user friendly documentation for the different software 
 - [MAM - 2019](mam/README.md)
 
 ## Todo Sections
-- [What is IOTA](#)
+- [What is IOTA](#) (copy from https://docs.iota.works/)
 - [IOTA Basics](#)
-- [The Tangle](#) 
+- [The Tangle](#) (copy from https://docs.iota.works/)

@@ -11,6 +11,5 @@ This repository contains user friendly documentation for the different software 
 - [What is IOTA](#)
 - [IOTA Basics](#)
 - [The Tangle](#)
-- [Clients](#)
 - [MAM - 2019](#)
 - [Client Libraries](#)

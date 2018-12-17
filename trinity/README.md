@@ -1,5 +1,7 @@
 # IOTA Trinity
 
+To Do:  Add files from https://docs.iota.works/
+
 Documentation for the Trinity Wallet
 
 ## Trinity

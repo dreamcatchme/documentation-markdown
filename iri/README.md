@@ -1,6 +1,6 @@
 # IOTA node software (IRI) documentation
 
-This section should give users information about how IOTA node software (IRI) works, how they can install and run their own IRI node, and how they can interact with it through API endpoints.
+This section contains information about how IOTA node software (IRI) works, how you can install and run your own IRI node, and how you can interact with it through API endpoints.
 
 ## Documentation
 - Introduction

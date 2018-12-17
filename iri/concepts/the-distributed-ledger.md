@@ -4,7 +4,7 @@
 
  ## How it works
 
- An IOTA network is asynchronous, meaning that an IRI node in the network can append transaction to its ledger at any time without waiting for its neighbors to receive them. This asynchronisity allows transactions to be appended to the ledger at a faster rate than if the network were synchronous, meaning that each IRI node's ledger can be in a different state at any time.
+ An IOTA network is asynchronous, meaning that an IRI node in the network can append transactions to its ledger at any time without waiting for its neighbors to receive them. This asynchronisity allows transactions to be appended to the ledger at a faster rate than if the network were synchronous, meaning that each IRI node's ledger can be in a different state at any time.
 
 When the IRI [receives and validates a transaction](/iri/concepts/transaction-validation.md), that [transaction and its metadata](/iri/references/data-in-the-ledger.md) are appended to the ledger to form that ledger's local state. It's this local state that clients interact with when they connect to the IRI node.
 

@@ -26,7 +26,7 @@ IRI nodes consider value transactions (transactions that transfer IOTA tokens) t
 
 <dl>
 <dt>Milestone</dt>
-<dd>Valid transaction that is created by either the Coordinator in a public IOTA network or [Compass](/compass/introduction/overview.md) is a private IOTA network.</dd>
+<dd>Valid transaction that is created by either the Coordinator in a public IOTA network or <a href="/compass/introduction/overview.md">Compass</a> in a private IOTA network.</dd>
 </dl>
 
 <dl>

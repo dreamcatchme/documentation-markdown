@@ -112,7 +112,7 @@ $ curl -s http://localhost:14265 -X POST -H 'X-IOTA-API-Version: 1' -H 'Content-
 
 **Notes:**
 * The [jq](https://stedolan.github.io/jq/) tool is a command-line JSON processor that helps you to display and manipulate JSON data. This tool is optional.
-* It may take some time for the IRI to synchronize. For help with any issues, read our [troubleshooting guide](/how-to-guides/troubleshooting-the-iri.md).
+* It may take some time for the IRI to synchronize. For help with any issues, read our [troubleshooting guide](/iri/how-to-guides/troubleshooting-the-iri.md).
 
 ## Next steps
 

@@ -31,7 +31,7 @@ The bundles of each transaction that the IRI traverses during the tip selection 
 
 The bundle validator makes sure that all transactions in a bundle are valid.
 
-When the IRI traverses a transaction during a weighted random walk, the bundle validator checks its bundle for the following:
+When the IRI traverses a transaction during a [weighted random walk](/iri/concepts/tip-selection.md#how-it-works), the bundle validator checks its bundle for the following:
 * The value of any transaction in the bundle doesn’t exceed the total global supply
 * The total value of all transactions in the bundle is 0 (inputs and outputs are balanced)
 * Any signatures in value transactions are valid

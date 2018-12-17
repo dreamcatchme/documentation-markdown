@@ -16,7 +16,7 @@ You have two options for downloading the latest IRI software:
 
 ## Prerequisites
 
-To download the IRI on Linux, you must have root priviledges to run the SUDO command in the command line.
+To download the IRI on Linux, you must have root priviledges.
 
 ## Downloading the pre-built IRI Java file
 

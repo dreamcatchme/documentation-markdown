@@ -16,8 +16,7 @@ For transactions to be confirmed, the majority of the IRI nodes in an IOTA netwo
 
 To reach consensus about the global state of all ledgers in the network, IRI nodes communicate with their neighbors through a gossip protocol to inform each other of the state of their ledger.
 
-Gossip protocol
-A peer-to-peer communication protocol that allows computers in the same network to share data.
+<dl><dt>Gossip protocol</dt><dd>A peer-to-peer communication protocol that allows computers in the same network to share data.</dd></dl>
 
 When an IRI node receives a transaction or performs [tip selection](/iri/concepts/tip-selection.md), it must [validate the transaction](/iri/concepts/transaction-validation.md). If an IRI node is missing any information about a transaction, the IRI node can ask its neighbors for it through the gossip protocol, and if its neighbors are missing the information, those neighbors will ask their neighbors, and so on.
 
@@ -27,7 +26,7 @@ IRI nodes consider value transactions (transactions that transfer IOTA tokens) t
 
 <dl>
 <dt>Milestone</dt>
-<dd>Valid transaction that is created by either the Coordinator in a public IOTA network or Compass is a private IOTA network.</dd>
+<dd>Valid transaction that is created by either the Coordinator in a public IOTA network or [Compass](/compass/introduction/overview.md) is a private IOTA network.</dd>
 </dl>
 
 <dl>

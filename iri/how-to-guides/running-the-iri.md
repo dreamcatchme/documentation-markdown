@@ -19,6 +19,7 @@ After downloading the IRI, you need to run it to start interacting with an IOTA 
     * 60GB of free disk space
     * An public IP address: Either a static IP address or a dynamic IP address that's connected to a dynamic DNS such as [noip.com](https://www.noip.com/remote-access)
 
+
 * You must have the [URLs or the IP addresses of at least three neighbor nodes](/iri/how-to-guides/finding-neighbors.md) who are also running the IRI on the same IOTA network
 
 * By default, the IRI uses the following ports. You must map these ports to computer's public IP address.
@@ -44,7 +45,7 @@ After downloading the IRI, you need to run it to start interacting with an IOTA 
 
 **Note:** The only configuration option that you **must** add is the `PORT` parameter.
 
-3. Make a directory to hold the database and the IXI (IOTA exchange interface folders):
+1. Make a directory to hold the database and the IXI (IOTA exchange interface folders):
 
     ```bash
     $ mkdir -p /path-to-data
@@ -53,7 +54,7 @@ After downloading the IRI, you need to run it to start interacting with an IOTA 
 
     **Note:** You can change the `/path-to-data` string to your chosen directory name.
 
-4. Run the IRI:
+2. Run the IRI:
 
     ```bash
     $ java ${JAVA_OPTIONS} -Xms${JAVA_MIN_MEMORY} -Xmx${JAVA_MAX_MEMORY} -Djava.net.preferIPv4Stack=true -jar ${IRI_JAR_PATH}

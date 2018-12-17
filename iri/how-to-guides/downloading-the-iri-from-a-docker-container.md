@@ -63,4 +63,4 @@ Instead of downloading the pre-built Docker container, you may want to build the
     ```
 ## Next steps
 
-* [Running the IRI in a Docker container](/iri/how-to-guides/running-the-iri-in-a-docker-container)
+* [Running the IRI in a Docker container](/iri/how-to-guides/running-the-iri.md)

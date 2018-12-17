@@ -5,9 +5,12 @@ This repository contains user friendly documentation for the different software 
 - [IRI (Node)](iri/README.md)
 - [Hub](hub/README.md)
 - [Compass](compass/README.md)
+- [Trinity](trinity/README.md)
 
 ## Todo Sections
 - [What is IOTA](#)
 - [IOTA Basics](#)
 - [The Tangle](#)
 - [Clients](#)
+- [MAM - 2019](#)
+- [Client Libraries](#)

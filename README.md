@@ -8,8 +8,8 @@ This repository contains user friendly documentation for the different software 
 
 ## In Progress
 - [Trinity](trinity/README.md)
-- [Client Libraries](#)
-- [MAM - 2019](#)
+- [Client Libraries](api/README.md)
+- [MAM - 2019](mam/README.md)
 
 ## Todo Sections
 - [What is IOTA](#)

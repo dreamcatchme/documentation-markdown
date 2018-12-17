@@ -95,7 +95,7 @@ This sitemap is for internal purposes only.  It serves as a checklist to ensure 
 - [Seed Backup](Trinity/SeedBackup.md)
 - [Account Name](Trinity/MobileAccountName.md)
 - [Account Password](Trinity/MobileAccountPassword.md)
-- [ Desktop Setup](Trinity/ DesktopSetup.md)
+- [Desktop Setup](Trinity/DesktopSetup.md)
 - [Seed Generation](Trinity/SeedGeneration.md)
 - [Key File Backup](Trinity/KeyFileBackup.md)
 - [Account Name](Trinity/DesktopAccountName.md)

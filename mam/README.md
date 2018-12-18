@@ -1,5 +1,7 @@
 # Masked Authentication Messaging (MAM)
 
+This section explains secure messaging and provides how-to examples plus use case examples
+
 ## Documentation
 
 - Introduction

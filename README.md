@@ -2,7 +2,7 @@
 This repository contains documentation for products and tools developed by the IOTA Foundation
 
 ## Completed
-- [IRI (Node)](iri/README.md)
+- [IRI (IOTA Node)](iri/README.md)
 - [Hub](hub/README.md)
 - [Compass](compass/README.md)
 

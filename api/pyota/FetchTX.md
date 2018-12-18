@@ -1,6 +1,7 @@
 <html>
+<h1>Fetching Transactions
     
-<p>In this tutorial we will show you how you can fetch existing transactions using IRI and the Python IOTA client library.</p>
+<p>In this tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library.</p>
 
 <h2>How it works</h2>
 
@@ -25,7 +26,7 @@
 
 <h2>Connecting to a node</h2>
 
-<p>Before we can start using the client we need to import it and initialize it with a node address to connect to:</p>
+<p>Before you can start using the client you must import it and initialize it with a node address to connect to:</p>
 
 <pre><code>from iota import Iota
 
@@ -39,7 +40,7 @@ api = Iota(&#39;https://nodes.iota.cafe:443&#39;)
 
 <h2>Fetching the total balance using a seed</h2>
 
-<p>In order to fetch transactions we first need to make a selection of what transactions we want to look for. A common use case would be to fetch transactions by providing a single address, or all addresses belonging to a certain seed. If you&#39;ve initialized your library with a seed you can simply run the get_inputs method to fetch all addresses with transactions belonging to your seed:</p>
+<p>In order to fetch transactions first make a selection of what transactions you want to look for. A common use case would be to fetch transactions by providing a single address, or all addresses belonging to a certain seed. If you&#39;ve initialized your library with a seed you can simply run the get_inputs method to fetch all addresses with transactions belonging to your seed:</p>
 
 <pre><code>addresses = api.get_inputs()
 </code></pre>
@@ -86,7 +87,7 @@ TransactionHash(b&#39;D99NDB9FFWSNOEKNVNOWJPZIXVGCVKHNNJAVMMFSXXGALGANIUJJRKDNVT
  &#39;duration&#39;: 0}
 </code></pre>
 
-<p>These hashes by itself are not very useful to us, but we can use them in the next step to fetch the bundle(s) associated with them for more details.</p>
+<p>These hashes by itself are not very useful to us, but they can be used in the next step to fetch the bundle(s) associated with them for more details.</p>
 
 <h2>Checking if transactions are confirmed</h2>
 
@@ -95,7 +96,7 @@ TransactionHash(b&#39;D99NDB9FFWSNOEKNVNOWJPZIXVGCVKHNNJAVMMFSXXGALGANIUJJRKDNVT
 <pre><code>included = api.get_latest_inclusion(hashes[&#39;hashes&#39;])
 </code></pre>
 
-<p>This returns a dictionary with a single &#39;states&#39; key, this entry contains another dictionary with as the key the Transaction Hash and as the value either True or False (included or not). If we only want to have the TransactionHashes that are actually confirmed we can simply loop over them and checking if they have a <code>True</code> value:</p>
+<p>This returns a dictionary with a single &#39;states&#39; key, this entry contains another dictionary with as the key the Transaction Hash and as the value either True or False (included or not). If you only want the TransactionHashes that are actually confirmed, then loop over them and check if they have a <code>True</code> value:</p>
 
 <pre><code>confirmed_hashes = []
 
@@ -113,12 +114,12 @@ for txhash, confirmed in included[&#39;states&#39;].items():
 
 <h2>Fetching a bundle and transactions by a transaction hash</h2>
 
-<p>To fetch the bundle(s) for a transaction hash we need to call the <code>get_bundles</code> method:</p>
+<p>To fetch the bundle(s) for a transaction hash call the <code>get_bundles</code> method:</p>
 
 <pre><code>bundles = api.get_bundles(&#39;IADZ9GCZY9CJJKGQMTQBPWJUYKOPPDVOGAFNAIOEJ9YA9TAJCZKQREECMFGXEUFUMZPEBFFGLEVWZ9999&#39;)
 </code></pre>
 
-<p>This returns a dictionary with a bundles key containing a list of Bundle objects, often times this will just be a single bundle. A bundle object has a <code>transactions</code> attribute, so we can loop over all transactions within our bundle for details:</p>
+<p>This returns a dictionary with a bundles key containing a list of Bundle objects, often times this will just be a single bundle. A bundle object has a <code>transactions</code> attribute.  Loop over all transactions within our bundle for details:</p>
 
 <pre><code>for bundle in bundles[&#39;bundles&#39;]:
     for transaction in bundle.transactions:

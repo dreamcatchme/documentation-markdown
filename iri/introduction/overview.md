@@ -19,4 +19,4 @@ Here are some benefits of [running your own IRI node](/iri/how-to-guides/running
 
 ## Limitations
 
-The IRI receives transactions and records them in its ledger, it doesn't create or sign transactions. To create or sign transactions, you must use client software such as the Trinity wallet or a client library and send the transactions to an IRI node.
+The IRI receives transactions and records them in its ledger, it doesn't create or sign transactions. To create or sign transactions, you must use client software such as the Trinity wallet or a client library and send those transactions to an IRI node.

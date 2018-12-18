@@ -1,7 +1,7 @@
 
 # Hub
 
-The following should provide the required information to understand and use the IOTA rpcHub confidently.
+This section explains the IOTA rpcHub, called Hub
 
 ## Documentation
 - Introduction

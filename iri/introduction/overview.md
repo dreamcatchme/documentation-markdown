@@ -2,7 +2,7 @@
 
 When computers send data through a network, they must send it according to a set of rules, called a protocol. In an IOTA network, data is sent as transactions to IRI nodes, which are computers that run the IOTA reference implementation (IRI).
 
-The IRI is open-source Java software that defines the IOTA protocol for what a valid transaction is, what a confirmed transaction is, and how IRI nodes should send transactions among each other. You can [run the IRI](/how-to-guides/running-the-iri.md) on a computer to participate in an IOTA network.
+The IRI is open-source Java software that defines the IOTA protocol for what a valid transaction is, what a confirmed transaction is, and how IRI nodes should send transactions among each other.
 
 IRI nodes are the core of an IOTA network. They perform the following key functions:
 

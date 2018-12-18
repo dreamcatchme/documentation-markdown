@@ -9,7 +9,7 @@ Documentation for the Trinity Wallet
 - [What is Trinity?](Introduction/WhatisTrinity.md)
 - [Bug Bounty](Introduction/bugBounty.md)
 
-#### Important
+#### Safeguarding Your Wallet
 - [Seed Generation](QuickStart/SeedGeneration.md)
 - [Seed Backup](QuickStart/SeedBackup.md)
 - [Account Name](QuickStart/MobileAccountName.md)

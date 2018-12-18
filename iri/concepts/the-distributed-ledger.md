@@ -31,5 +31,5 @@ IRI nodes consider value transactions (transactions that transfer IOTA tokens) t
 
 <dl>
 <dt>Coordinator</dt>
-<dd>Client application that sends transactions, known as milestones, every two minutes to IRI nodes in the mainnet, the devnet, and the testnet networks. Each IRI node validates the milestone transactions, and when a valid milestone transaction directly or indirectly references another transactions, that transaction is considered confirmed on the IOTA network. The IOTA Foundation runs the client application that is the Coordinator. </dd>
+<dd>Client application that sends transactions, known as milestones, to IRI nodes in the mainnet, the devnet, and the testnet networks. Each IRI node validates the milestone transactions. When a valid milestone transaction directly or indirectly references another transactions, that transaction is considered confirmed on the IOTA network. The IOTA Foundation runs the Coordinator. </dd>
   </dl>

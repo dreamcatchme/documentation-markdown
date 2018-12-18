@@ -1,4 +1,4 @@
-# Masked Authentication Messaging (MAM) Documentation
+# MAM (Masked Authentication Messaging)
 
 - Introduction
     - [Overview](introduction/overview.md)

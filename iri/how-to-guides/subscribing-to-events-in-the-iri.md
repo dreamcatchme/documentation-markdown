@@ -1,15 +1,15 @@
 # Subscribing to events in the IRI
 
-The IRI publishes events such as transaction confirmations to the [zero message queue (ZMQ)](/iri/concepts/zero-message-queue.md). The ZMQ allows clients outside of the IRI to access these events in real time, allowing you to create applications that receive data directly from the IRI.
+The IRI publishes events such as transaction confirmations to the [zero message queue (ZMQ)](/iri/concepts/zero-message-queue.md) so that clients outside of the IRI can access these events in real time.
 
-To receive data directly from the IRI, a client must subscribe to an event. You may want to subscribe to events to do the following:
+You may want to subscribe to events to do the following:
 
 * Monitor an address for when a transaction is sent to it and confirmed
 * Create a Tangle visualisation website, such as [tangle.glumb.de](www.tangle.glumb.de)
 
-Clients can subscribe to events in the ZMQ by doing the following:
+You can subscribe to events in the ZMQ by doing the following:
 1. Install the open-source ZMQ library
-2. Create a ZMQ socket and connect it to an IRI node that has the ZMQ-enabled parameter set to true in the configuration options
+2. Create a ZMQ socket and connect it to an IRI node that has the [`ZMQ-enabled` configuration parameter](/iri/references/iri-configuration-options.md#zmq-enabled) set to `true`
 3. Subscribe to events on the ZMQ
 
 In the following how-to guide we use NodeJS, but you could use any [programming language that is supported by the ZMQ library](http://zguide.zeromq.org/page:all).

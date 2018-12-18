@@ -1,14 +1,12 @@
 # Tip selection
 
-Before a new transaction can be validated by the IRI and appended to its [ledger](/iri/concepts/the-distributed-ledger.md), that transaction must include the hashes of two transactions that are already in the ledger. In the IRI, these transactions are called tip transactions because they are recent transactions that appear at the tip of the graph.
+A transaction is valid only when it includes the hashes of two previous transactions, which are already in the ledger. In the IRI, these previous transactions are called tip transactions because they appear at the tip of the graph.
 
-In the IRI (IOTA reference implementation), [tip selection](https://github.com/iotaledger/iri/tree/dev/src/main/java/com/iota/iri/service/tipselection) is the process of selecting two tip transactions.
-
-Clients can request the hashes of two tip transactions from the IRI by calling the getTransactionsToApprove API method. One of these tip transaction hashes is added to the new transaction's `branchTransaction` field and the other to its `trunkTransaction` field.
+In the IRI (IOTA reference implementation), [tip selection](https://github.com/iotaledger/iri/tree/dev/src/main/java/com/iota/iri/service/tipselection) is the process of selecting two tip transactions and returning them to a client to add to a new transaction.
 
 ## How it works
 
-The IRI finds two tip transaction hashes for clients by selecting a subgraph of the ledger and performing two weighted random walks through it. Each weighted random walk returns a tip transaction hash.
+The IRI finds two tip transaction hashes by selecting a subgraph of the ledger and performing two weighted random walks through it. Each weighted random walk returns a tip transaction hash.
 
 <dl>
 <dt>Weighted random walk</dt>
@@ -40,4 +38,3 @@ The IRI gives a high rating to a transaction with a large future set because it 
 The `alpha` configuration parameter makes sure that the cumulative weight of each transaction is calculated with an element of randomness. This parameter allows the IRI to select some transactions that have a small future set and by doing so, increase the speed at which new transactions are appended to the ledger.  
 
 For more information about the weighted random walk, and for an in-depth explanation about the theories surrounding the best value for the `alpha` configuration parameter, read our [blog post](https://blog.iota.org/confirmation-rates-in-the-tangle-186ef02878bb).
-

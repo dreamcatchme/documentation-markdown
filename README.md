@@ -1,5 +1,5 @@
 # IOTA Documentation
-This repository contains documentation for products and tools devloped by the IOTA Foundation
+This repository contains documentation for products and tools developed by the IOTA Foundation
 
 ## Completed
 - [IRI (Node)](iri/README.md)

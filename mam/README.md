@@ -1,6 +1,6 @@
 # Masked Authentication Messaging (MAM)
 
-When finished, the following should provide the required information to understand and to use MAM with confidence.
+## Documentation
 
 - Introduction
     - [Overview](introduction/overview.md)
@@ -8,7 +8,7 @@ When finished, the following should provide the required information to understa
     - [Use Cases](introduction/usecases.md)
     
 - How-to Guides
-    - [Safeguarding messages](quick-start/security.md)
+    - [Safeguarding Messages](quick-start/security.md)
     
     - [Installing MAM](quick-start/installation.md)
        

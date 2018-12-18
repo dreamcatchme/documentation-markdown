@@ -1,18 +1,21 @@
-# MAM (Masked Authentication Messaging)
+# Masked Authentication Messaging (MAM) Documentation
 
+When finished, the following should provide the required information to understand and to use MAM with confidence.
+
+## Documentation
 - Introduction
     - [Overview](introduction/overview.md)
     
     - [Use Cases](introduction/usecases.md)
     
 - How-to Guides
-    - [Security](quick-start/security.md)
+    - [Safeguarding messages](quick-start/security.md)
     
-    - [Installation](quick-start/installation.md)
+    - [Installing MAM](quick-start/installation.md)
        
-    - [Simple Example](quick-start/example.md)
+    - [Example:  Sending & Receiving Messages](quick-start/example.md)
 
- - Concepts
+- Concepts
     - [MAM Architecture](knowledgebase/MAM-architecture.md)
     
     - [MAM Functions](knowledgebase/MAM-functions.md)
@@ -21,4 +24,5 @@
 
     - [Use Case:  Where's my Porsche?](knowledgebase/HM.md) featuring High Mobility and IOTA MAM 
 
+- How-to Partitipate 
     - [Contribute](knowledgebase/contribute.md)

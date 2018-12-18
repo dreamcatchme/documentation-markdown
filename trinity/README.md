@@ -2,6 +2,8 @@
 
 To Do:  Add files from https://docs.iota.works/
 
+## Documentation
+
 Documentation for the Trinity Wallet
 
 - Introduction

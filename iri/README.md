@@ -27,3 +27,5 @@ This section contains information about how IOTA node software works.  IOTA node
     - [IRI configuration options](/iri/references/iri-configuration-options.md)
     - [ZMQ events](/iri/references/zmq-events.md)
 
+- How-to Participate 
+    - [Contribute](knowledgebase/contribute.md)

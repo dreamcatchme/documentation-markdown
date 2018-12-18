@@ -24,3 +24,6 @@ The Open Source Coordinator
     - [Contribute](concepts/contribute.md)
 - References
     - [Compass Reference](references/reference.md)
+
+- How-to Participate 
+    - [Contribute](knowledgebase/contribute.md)

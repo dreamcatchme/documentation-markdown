@@ -1,7 +1,7 @@
 <html>
 <h1>Fetching Transactions</h1>
     
-<p>In this tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library.</p>
+<p>This tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library.</p>
 
 <h2>How it works</h2>
 

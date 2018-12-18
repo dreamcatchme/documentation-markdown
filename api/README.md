@@ -1,4 +1,4 @@
-## IOTA Client Libraries
+## Client Libraries
 
 - [JavaScript](https://github.com/iotaledger/iota.lib.js)
 - [C](https://github.com/iotaledger/entangled)

@@ -24,5 +24,5 @@ When finished, the following should provide the required information to understa
 
     - [Use Case:  Where's my Porsche?](knowledgebase/HM.md) featuring High Mobility and IOTA MAM 
 
-- How-to Partitipate 
+- How-to Participate 
     - [Contribute](knowledgebase/contribute.md)

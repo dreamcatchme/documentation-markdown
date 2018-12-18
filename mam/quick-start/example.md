@@ -1,4 +1,4 @@
-## Example Sending & Receiving MAM
+## Example: Sending & Receiving MAM
 
 This example includes a sender and a receiver.  The sender broadcasts a public MAM message, “MAMTEST”.  The receiver listens for the message then deciphers it.
 

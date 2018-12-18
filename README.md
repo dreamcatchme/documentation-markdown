@@ -1,5 +1,5 @@
 # IOTA Documentation
-This repository contains user friendly documentation for the different software of the IOTA project. 
+This repository contains documentation for the different software of the IOTA project
 
 ## Completed
 - [IRI (Node)](iri/README.md)

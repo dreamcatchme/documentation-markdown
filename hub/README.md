@@ -28,3 +28,5 @@ The following should provide the required information to understand and use the 
     - [Contribute](concepts/contribution.md)
 - References
     - [Hub Architecture](references/reference.md)
+- How-to Participate 
+    - [Contribute](knowledgebase/contribute.md)

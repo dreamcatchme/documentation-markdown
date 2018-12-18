@@ -1,8 +1,7 @@
-# Masked Authentication Messaging (MAM) Documentation
+# Masked Authentication Messaging (MAM)
 
 When finished, the following should provide the required information to understand and to use MAM with confidence.
 
-## Documentation
 - Introduction
     - [Overview](introduction/overview.md)
     

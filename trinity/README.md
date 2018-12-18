@@ -9,19 +9,19 @@ Documentation for the Trinity Wallet
 - [What is Trinity?](Introduction/WhatisTrinity.md)
 - [Bug Bounty](Introduction/bugBounty.md)
 
-#### Quick Start
+#### Important
 - [Seed Generation](QuickStart/SeedGeneration.md)
 - [Seed Backup](QuickStart/SeedBackup.md)
 - [Account Name](QuickStart/MobileAccountName.md)
 - [Account Password](QuickStart/MobileAccountPassword.md)
 
-#### Interact
+#### How To Guides
 - [Wallet Actions](Interact/WalletActions.md)
 - [Receiving Funds](Interact/ReceivingFunds.md)
 - [Sending Funds](Interact/SendingFunds.md)
 - [Settings](Interact/Settings.md)
 
-#### Information
+#### Concepts
 - [Security](Info/Security.md)
 - [Hardware Wallet Security](Info/hardware-wallet.md)
 - [Architecture](Info/components.md)

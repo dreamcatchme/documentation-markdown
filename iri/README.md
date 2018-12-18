@@ -1,4 +1,4 @@
-# IOTA Node (IRI)
+# IRI (IOTA Node)
 
 This section contains information about how IOTA node software works.  IOTA node software is also called the IOTA Reference Implementation (IRI).  Using this documentation you can install and run your own IRI node and interact with it through API endpoints.
 

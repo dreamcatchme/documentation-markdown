@@ -15,8 +15,8 @@ Documentation for the Trinity Wallet
 - [Account Name](QuickStart/MobileAccountName.md)
 - [Account Password](QuickStart/MobileAccountPassword.md)
 
-#### How To Guides
-- [Wallet Actions](Interact/WalletActions.md)
+#### How-to Guides
+- [Using Trinity](Interact/WalletActions.md)
 - [Receiving Funds](Interact/ReceivingFunds.md)
 - [Sending Funds](Interact/SendingFunds.md)
 - [Settings](Interact/Settings.md)
@@ -28,3 +28,6 @@ Documentation for the Trinity Wallet
 - [Functions](Info/functions.md)
 - [QR Codes](Info/QRCodes.md)
 - [FAQs](Info/FAQs.md)
+
+#### How-to Participate 
+- [Contribute](knowledgebase/contribute.md)

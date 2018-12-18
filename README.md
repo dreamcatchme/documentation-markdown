@@ -1,7 +1,7 @@
 # IOTA Documentation
 This repository contains user friendly documentation for the different software of the IOTA project. 
 
-## Completed Sections
+## Completed
 - [IRI (Node)](iri/README.md)
 - [Hub](hub/README.md)
 - [Compass](compass/README.md)
@@ -11,7 +11,7 @@ This repository contains user friendly documentation for the different software 
 - [Client Libraries](api/README.md)
 - [MAM](mam/README.md)
 
-## Todo Sections
+## Todo
 - [What is IOTA](#) (copy from https://docs.iota.works/)
 - [IOTA Basics](#)
 - [The Tangle](#) (copy from https://docs.iota.works/)

@@ -1,5 +1,6 @@
 # Compass
-The Open Source Coordinator
+
+This section explains the open source coordinator called, Compass
 
 ## Documentation
 - Introduction

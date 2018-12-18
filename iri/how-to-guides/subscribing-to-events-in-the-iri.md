@@ -28,7 +28,7 @@ To use the code samples in this guide, your computer must have the following:
 * Node package manager (npm)
 * A code editor
 * Access to a terminal
-* An Internet Connection
+* An Internet connection
 
 1. Create a working directory called zmq-example
     ```bash

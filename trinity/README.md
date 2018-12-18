@@ -1,4 +1,4 @@
-# IOTA Trinity
+# Trinity
 
 To Do:  Add files from https://docs.iota.works/
 

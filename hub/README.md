@@ -1,5 +1,5 @@
 
-# Hub Documentation
+# Hub
 
 The following should provide the required information to understand and use the IOTA rpcHub confidently.
 

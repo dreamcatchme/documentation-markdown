@@ -5,14 +5,14 @@
     
     - [Use Cases](introduction/usecases.md)
     
-- Quick Start
+- How-to Guides
     - [Security](quick-start/security.md)
     
     - [Installation](quick-start/installation.md)
        
     - [Simple Example](quick-start/example.md)
 
- - Knowledge Base
+ - Concepts
     - [MAM Architecture](knowledgebase/MAM-architecture.md)
     
     - [MAM Functions](knowledgebase/MAM-functions.md)

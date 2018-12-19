@@ -16,7 +16,7 @@
 
 <h2>Connecting to a node</h2>
 
-<p>Import PYOTA and initialize it with a node address.  The examples in this tutorial use this node:  https://nodes.iota.cafe:443&#39</p>
+<p>Import PYOTA and initialize it with a node address.  The examples in this tutorial use this node:  &#39https://nodes.iota.cafe:443&#39</p>
 
 <pre><code>from iota import Iota
 

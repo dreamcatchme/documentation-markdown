@@ -1,19 +1,19 @@
 ## Client Libraries
 
-Sending and receiving transactions directly through the Tangle using the IRI API requires an in-depth understanding of the IOTA protocol.  To make it easier, several client libraries are available:
+Sending and receiving transactions directly through the Tangle using the IRI API requires an in-depth understanding of the IOTA protocol.  To make it easier, several client libraries are available.  Documentation for JavaScript and PYOTA libraries includes examples and guidance for learners, as well as, experienced developers.  Examples include collecting and publishing sensor data using Raspberry Pi.
 
 - [JavaScript](https://github.com/iotaledger/iota.lib.js)
+- [PYOTA](pyota/README.md) (IN PROGRESS)
+
+These links go directly to github repositories:
+
 - [JAVA](https://github.com/iotaledger/iota.lib.java)
 - [C](https://github.com/iotaledger/entangled)
 - [C++](https://github.com/thibault-martinez/iota.lib.cpp)
-- [PYOTA](pyota/README.md) (IN PROGRESS)
 - [Go](https://github.com/iotaledger/giota)
 
-These client libraries include instructions for the following:
+These links go to useful tools:
 
--  getting transactions, ```getTips```, to approve when sending a transaction
--  sending a transaction/bundle to the tangle using ```attachToTangle```
--  fetching transaction data from the tangle in order to ```getBalances```, ```findTransactions``` or ```getTrytes```
--  performing ad hoc queries and analysis
+- [IOTA Developers Tangle](https://devnet.thetangle.org) for viewing transactions and visualizing the Tangle
+- [IOTA API reference guide](https://iota.readme.io/reference) for seeing API details and examples
 
-For more information see the [IOTA API reference guide](https://iota.readme.io/reference)

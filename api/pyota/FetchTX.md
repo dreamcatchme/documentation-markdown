@@ -5,16 +5,14 @@
 
 <h2>Prerequisites</h2>
 
-<p>To replicate the examples use the following:</p>
-
 <ul>
 <li>An installation of Python (2.7/3.5/3.6)</li>
 <li>PIP (Python package manager)</li>
-<li>A virtual environment to run our application in (not required but highly recommended)</li>
+<li>A virtual environment for running the app (not required but highly recommended)</li>
 <li>The iota.lib.py package (<code>pip install pyota</code>)</li>
 </ul>
 
-<p>You can run these examples in a Python script or an interactive Python shell session. </p>
+<p>You can run these examples via a Python script or in an interactive Python shell session. </p>
 
 <h2>Connecting to a node</h2>
 

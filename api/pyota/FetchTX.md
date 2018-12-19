@@ -23,7 +23,7 @@
 api = Iota(&#39;https://nodes.iota.cafe:443&#39;)
 </code></pre>
 
-<p>You may also provide a seed.  And you may connect to a different node, such as the IOTA DevNet.</p>
+<p>You may connect to a different node, such as the IOTA DevNet.  You may also provide a seed.</p>
 
 <pre><code>api = Iota(&#39;https://nodes.devnet.iota.org:443&#39;, &#39;YOURSEEDHERE&#39;)
 </code></pre>

@@ -8,6 +8,7 @@ You can choose to configure the IRI by specifying the configuration options in t
 
 | **Configuration options** |   **Description**| **Accepted values** | **Default values**|**Notes** |
 | :------------------------ | :--------------- | :--------- | :--------| :------------|
+|<a name="testnet"></a>`--testnet` |Run the IRI on the testnet network |boolean |false | If you run the IRI on the testnet, your neighbor IRI nodes must also be on the testnet
 |<a name="alpha"></a>`--alpha`| Randomness of the tip selection process             |   number between 0 and infinity  |  0.001     | The number 0 is the most random and infinity is the most deterministic|
 |<a name="api-host"></a> `--api-host`| Host on which the API will listen to| string|localhost | Set this parameter to 0.0.0.0 to accept any host|
 |<a name="cache-size"></a>`--cache-size` |Size of the network cache in bytes | |150,000 | |

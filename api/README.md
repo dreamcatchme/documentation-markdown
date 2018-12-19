@@ -17,6 +17,12 @@ These links go directly to github repositories:
 - [IOTA Developers Tangle](https://devnet.thetangle.org) for viewing transactions and visualizing the Tangle
 - [IOTA API reference guide](https://iota.readme.io/reference) for API details and examples
 
-#### Raspberry Pi Examples
+#### IoT Experiments
+
+- [High Mobility-Porsche](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/HM.md)
+
+- [AstroPiOTA](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/astropi.md)
+
+- [Contribute](knowledgebase/contribute.md) your experiments 
 
 

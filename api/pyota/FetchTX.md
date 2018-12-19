@@ -1,7 +1,7 @@
 <html>
 <h1>Fetching Transactions</h1>
     
-<p>This tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library, called [PYOTA](https://github.com/iotaledger/iota.lib.py).</p>
+<p>This tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library, called <a href="https://github.com/iotaledger/iota.lib.py">PYOTA</a></p>
 
 <h2>Prerequisites</h2>
 
@@ -14,40 +14,40 @@
 <li>The iota.lib.py package (<code>pip install pyota</code>)</li>
 </ul>
 
-<p>You can run these examples in a Python script or a interactive Python shell session. </p>
+<p>You can run these examples in a Python script or an interactive Python shell session. </p>
 
 <h2>Connecting to a node</h2>
 
-<p>Before you can start using the client you must import it and initialize it with a node address to connect to:</p>
+<p>Import PYOTA and initialize it with a node address.  This example connects to the IOTA DevNet</p>
 
 <pre><code>from iota import Iota
 
-api = Iota(&#39;https://nodes.iota.cafe:443&#39;)
+api = Iota(&#39;https://nodes.devnet.iota.org:443&#39;)
 </code></pre>
 
-<p>If you want to be able to fetch transactions as well for a given seed you can provide that as well when initializing the library:</p>
+<p>Provide a seed</p>
 
 <pre><code>api = Iota(&#39;https://nodes.iota.cafe:443&#39;, &#39;YOURSEEDHERE&#39;)
 </code></pre>
 
-<h2>Fetching the total balance using a seed</h2>
+<h2>Fetching the total balance of all addresses associated with a seed</h2>
 
-<p>In order to fetch transactions first make a selection of what transactions you want to look for. A common use case would be to fetch transactions by providing a single address, or all addresses belonging to a certain seed. If you&#39;ve initialized your library with a seed you can simply run the get_inputs method to fetch all addresses with transactions belonging to your seed:</p>
+<p>First, decide which transactions to fetch. For example, you can fetch transactions by providing a single address or fetch all addresses belonging to a specific seed. If you added a seed along with the node, then simply run the get_inputs method to fetch all addresses for transactions belonging to your seed:</p>
 
 <pre><code>addresses = api.get_inputs()
 </code></pre>
 
-<p>This will return the addresses it can find for the given seed with transactions and the total balance:</p>
+<p>This will return the addresses associated with your seed along with the total balance:</p>
 
 <pre><code>{&#39;inputs&#39;: [Address(b&#39;IBTLTWJPCA9BKUIHAUDDKM9ZLKYBDJNTNJESCNBK9IBBQPDJKRXSPIQYHXNRMEBILGFPKXNUOFXMHHENX&#39;)],
  &#39;totalBalance&#39;: 1}
 </code></pre>
 
-<p>In this example the total balance is 1 iota and there&#39;s only 1 address used for this seed.</p>
+<p>In this example the total balance is 1 iota and there is only 1 address associated with this seed.</p>
 
 <h2>Fetching balances using a list of addresses</h2>
 
-<p>If you wish to fetch the confirmed balance for a single address or multiple addresses without having to provide the seed to your code you can do so as well:</p>
+<p>You can fetch the confirmed balance for a single address or multiple addresses without providing their seed</p>
 
 <pre><code>api.get_balances(addresses=[&#39;IBTLTWJPCA9BKUIHAUDDKM9ZLKYBDJNTNJESCNBK9IBBQPDJKRXSPIQYHXNRMEBILGFPKXNUOFXMHHENX&#39;])
 </code></pre>
@@ -61,11 +61,9 @@ api = Iota(&#39;https://nodes.iota.cafe:443&#39;)
  &#39;references&#39;: [&#39;ZKYQEHDDFWTTZUFTXWYYFZOPVNDMECNVXDBPNMDZAQQJLE9HAAQVZWWPEGSFSUWMMYBBCCIZDAKKA9999&#39;]}
 </code></pre>
 
-<p>If you just need an overview of confirmed balance for certain addresses this might be all you need for your use-case.</p>
-
 <h2>Finding transactions</h2>
 
-<p>To find the actual transaction hashes for a certain address, or a lost of addresses, use the <code>find_transaction</code> method:</p>
+<p>To find the actual transaction hashes for a certain address or several addresses, use the <code>find_transaction</code> method:</p>
 
 <pre><code>hashes = api.find_transactions(addresses=[&#39;IBTLTWJPCA9BKUIHAUDDKM9ZLKYBDJNTNJESCNBK9IBBQPDJKRXSPIQYHXNRMEBILGFPKXNUOFXMHHENX&#39;])  
 </code></pre>
@@ -79,16 +77,16 @@ TransactionHash(b&#39;D99NDB9FFWSNOEKNVNOWJPZIXVGCVKHNNJAVMMFSXXGALGANIUJJRKDNVT
  &#39;duration&#39;: 0}
 </code></pre>
 
-<p>These hashes by itself are not very useful to us, but they can be used in the next step to fetch the bundle(s) associated with them for more details.</p>
+<p>Alone these hashes are not very useful, but they can be used to fetch bundle(s) which have more information</p>
 
-<h2>Checking if transactions are confirmed</h2>
+<h2>Checking whether transactions are confirmed</h2>
 
-<p>The transaction hashes returned by the <code>find_transactions</code> method can be both confirmed or unconfirmed. If you need to be sure the transactions you are handling are confirmed you should check the inclusion state of your transactions. The inclusion state of the transaction tells you if the transaction is confirmed by a milestone. For financial transactions you should always check this.</p>
+<p>The transaction hashes returned by the <code>find_transactions</code> method can be both confirmed or unconfirmed.  You must check the inclusion state to determine whether the transaction was confirmed by a milestone or not.  Always check this for financial transactions.</p>
 
 <pre><code>included = api.get_latest_inclusion(hashes[&#39;hashes&#39;])
 </code></pre>
 
-<p>This returns a dictionary with a single &#39;states&#39; key, this entry contains another dictionary with as the key the Transaction Hash and as the value either True or False (included or not). If you only want the TransactionHashes that are actually confirmed, then loop over them and check if they have a <code>True</code> value:</p>
+<p>This returns a dictionary with a single &#39;states&#39; key which contains another dictionary with the key as Transaction Hash and the value as either True or False (included or not).  To get only TransactionHashes that are actually confirmed, loop through them and check whether they have a <code>True</code> value:</p>
 
 <pre><code>confirmed_hashes = []
 
@@ -97,7 +95,7 @@ for txhash, confirmed in included[&#39;states&#39;].items():
         confirmed_hashes.append(txhash)
 </code></pre>
 
-<p>Our <code>confirmed_hashes</code> list now only contains the transactions hashes that are actually referenced by a milestone:</p>
+<p>The <code>confirmed_hashes</code> list now only contains the transactions hashes that are actually referenced by a milestone:</p>
 
 <pre><code>[TransactionHash(b&#39;XMPMUTUONRQIDYBDQDZLMKIIWJTWYLATSNJOGHFIYJNPUOLNTZVWVFJBLUVR9TEGKHODBUZYDVFO99999&#39;),
  TransactionHash(b&#39;THPIWTNWST9ALTNIMNHIGCIHAIZCRHNCARFRDIUHKRPASBNE9PC9MVWXXAINJFIREWZAFGFVENGPA9999&#39;), 
@@ -118,7 +116,7 @@ for txhash, confirmed in included[&#39;states&#39;].items():
         print(transaction)
 </code></pre>
 
-<p>This will print something like this for every transaction within the bundle:</p>
+<p>Here is one example of the data in a transaction in a bundle:</p>
 
 <pre><code>Transaction(**{&#39;hash_&#39;: TransactionHash(b&#39;IADZ9GCZY9CJJKGQMTQBPWJUYKOPPDVOGAFNAIOEJ9YA9TAJCZKQREECMFGXEUFUMZPEBFFGLEVWZ9999&#39;),
              &#39;signature_message_fragment&#39;: Fragment(b&#39;CCTCGDHD9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999&#39;),
@@ -138,9 +136,9 @@ for txhash, confirmed in included[&#39;states&#39;].items():
              &#39;nonce&#39;: Nonce(b&#39;ESARJ9999999999999999999999&#39;)})
 </code></pre>
 
-<p>This transaction object contains all available data about a transaction including the value, address it refers to, a tag and a signature or message fragment. You can use this data as you please for your use-case.</p>
+<p>This contains all available data about a transaction including the value, address it refers to, a tag and a signature or message fragment.</p>
 
-<p>Our bundle object also comes with a handy <code>get_messages</code> function that will extract all encoded messages within the bundle (for example the messages you enter when you send a transaction through Trinity).</p>
+<p>The bundle object also comes with a handy <code>get_messages</code> function that will extract all encoded messages within the bundle (for example, the messages you enter when sending a transaction through Trinity).</p>
 
 <pre><code>bundle.get_messages()
 </code></pre>
@@ -152,12 +150,12 @@ for txhash, confirmed in included[&#39;states&#39;].items():
 
 <h2>A shortcut to fetch all transactions for a given seed</h2>
 
-<p>If you just want to fetch a complete history (as known by the node you are connected to) of all transfers connected to your seed there is a handy shortcut available in the form of the <code>get_transfers</code> function. This function will fetch all bundles for all addresses for the seed. Optionally you can ask the function to check for the inclusion state as well so you can check if the bundles are confirmed. After they are returned by the function:</p>
+<p>If you want to fetch a complete history (as known by the node you are connected to) of all transfers connected to your seed there is a handy shortcut available in the form of the <code>get_transfers</code> function. This function will fetch all bundles for all addresses for the seed. Optionally you can ask the function to check for the inclusion state as well, so you can check whether the bundles are confirmed.</p>
 
 <pre><code>bundles = api.get_transfers(inclusion_states=True)
 </code></pre>
 
-<p>This function returns the same dictionary as the <code>get_bundles</code> function above containing all the bundles for all our addresses with transactions. Since we asked for the inclusion state as well you can easily check each bundle to see if it is confirmed:</p>
+<p>This function returns the same dictionary as the <code>get_bundles</code> function above.  This example asked for the inclusion state as well so you can easily check each bundle to see if it is confirmed:</p>
 
 <pre><code>for bundle in bundles[&#39;bundles&#39;]:
     if bundle.is_confirmed:
@@ -165,7 +163,7 @@ for txhash, confirmed in included[&#39;states&#39;].items():
         # You can add your code to process this confirmed bundle here!
 </code></pre>
 
-<p>It&#39;s tempting to use this method because it&#39;s quick and easy to implement but there is a big caveat; It can become incredibly slow if you have a lot of transactions or addresses with transactions for your seed. For faster processing it is highly recommended to keep a state of what you already processed before so you don&#39;t have to fetch every transaction every time you want to see if there&#39;s a change. A example of keeping state is storing your total confirmed balance and already processed transaction hashes in a database and only check a new transaction if it&#39;s not in the processed database yet. This can make a huge difference in execution time for your application.</p>
+<p>It is tempting to use this method because it is quick and easy to implement.  But be careful.  It can be very slow when there are many transactions.  For faster processing, keep track of what was already processed and do not fetch every transaction every time there is a change. One way to acheive this, is by storing your total confirmed balance and already processed transaction hashes in a database.  Only check a new transaction if it is not in the database. This will speed up execution time.</p>
 
 <h2>Full example: showing all confirmed value transactions for a seed, including messages</h2>
 

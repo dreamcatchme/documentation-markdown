@@ -19,9 +19,11 @@ These links go directly to github repositories:
 
 #### IoT Experiments
 
-- [High Mobility-Porsche](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/HM.md)
+- [Smart Charging](https://github.com/iotaledger/documentation-markdown/blob/develop/) your EV and paying with iota  
 
-- [AstroPiOTA](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/astropi.md)
+- [High Mobility-Porsche](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/HM.md) securely sending data from onboard a Porsche to the Tangle 
+
+- [AstroPiOTA](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/astropi.md) publishing local environment sensor data to the Tangle
 
 - [Contribute](knowledgebase/contribute.md) your experiments 
 

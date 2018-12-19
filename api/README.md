@@ -16,4 +16,4 @@ These client libraries include instructions for the following:
 -  fetching transaction data from the tangle in order to ```getBalances```, ```findTransactions``` or ```getTrytes```
 -  performing ad hoc queries and analysis
 
-For more information see the [IOTA API reference guide[(https://iota.readme.io/reference)
+For more information see the [IOTA API reference guide](https://iota.readme.io/reference)

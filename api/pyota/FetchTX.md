@@ -3,13 +3,7 @@
     
 <p>This tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library.</p>
 
-<h2>How it works</h2>
-
-<p>Every IOTA node (mainly IRI at this point) exposes several API endpoints that can be used to do various things. One of them is getting transactions to approve when you are sending a transaction (<code>getTips</code>), another is for sending a transaction/bundle to the tangle (<code>attachToTangle</code>) and others are there to fetch transaction data from the tangle like <code>getBalances</code>, <code>findTransactions</code> or <code>getTrytes</code>. Every client library made for IOTA will use these exposed API endpoints to interact with the Tangle through a node. An API reference can be found <a href="https://iota.readme.io/reference">here</a> describing all available methods and examples that show how to interact with them. </p>
-
-<p>The IRI API is pretty low-level, you will need to do a lot yourself and know a lot about the IOTA protocol in-depth if you want to use it directly for sending and receiving transactions. To make it easier for a developer several client libraries are available to abstract the most common functionality for you making it easier to interact with the tangle through your programming language of choice. Currently we have client libraries available in Javascript (Typescript), C, C++, Java, Go and Python. We always recommend using one of our up-to-date and official libraries instead of interacting directly with IRI through the API in order to avoid mistakes and to make it easier on yourself to interact with the Tangle.</p>
-
-<p>In this tutorial we will be using the <a href="https://github.com/iotaledger/iota.lib.py">iota.lib.py</a> library for Python, this will be very similar to how the other client libraries work. </p>
+<p>In this tutorial we will be using the <a href="https://github.com/iotaledger/iota.lib.py">iota.lib.py</a> library for Python, this will be very similar to how the other client libraries work.</p>
 
 <h2>Prerequisites</h2>
 

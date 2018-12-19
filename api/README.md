@@ -2,7 +2,7 @@
 
 Sending and receiving transactions directly through the Tangle using the IRI API requires an in-depth understanding of the IOTA protocol.  To make it easier, several client libraries are available.  Documentation for JavaScript and PYOTA libraries includes examples and guidance for learners, as well as, experienced developers.
 
-- [JavaScript](https://github.com/iotaledger/iota.lib.js)
+- [JavaScript](https://github.com/iotaledger/iota.lib.js) (TODO)
 - [PYOTA](pyota/README.md) (IN PROGRESS)
 
 These links go directly to github repositories:
@@ -19,7 +19,7 @@ These links go directly to github repositories:
 
 #### IoT Experiments
 
-- [Smart Charging](https://github.com/iotaledger/documentation-markdown/blob/develop/) your electric vehicle (EV) and paying with iota tokens  
+- [Smart Charging](https://github.com/iotaledger/documentation-markdown/blob/develop/) your electric vehicle (EV) and paying with iota tokens  (TODO)
 
 - [High Mobility-Porsche](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/HM.md) securely sending data from onboard a Porsche to the Tangle 
 

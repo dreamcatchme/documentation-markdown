@@ -16,14 +16,14 @@
 
 <h2>Connecting to a node</h2>
 
-<p>Import PYOTA and initialize it with a node address.  This example connects to the IOTA DevNet</p>
+<p>Import PYOTA and initialize it with a node address.  This example connects to the IOTA DevNet without a seed</p>
 
 <pre><code>from iota import Iota
 
 api = Iota(&#39;https://nodes.devnet.iota.org:443&#39;)
 </code></pre>
 
-<p>Provide a seed</p>
+<p>Your may also provide a seed</p>
 
 <pre><code>api = Iota(&#39;https://nodes.iota.cafe:443&#39;, &#39;YOURSEEDHERE&#39;)
 </code></pre>

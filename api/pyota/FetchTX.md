@@ -1,13 +1,11 @@
 <html>
 <h1>Fetching Transactions</h1>
     
-<p>This tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library.</p>
-
-<p>In this tutorial we will be using the <a href="https://github.com/iotaledger/iota.lib.py">iota.lib.py</a> library for Python, this will be very similar to how the other client libraries work.</p>
+<p>This tutorial explains how to fetch existing transactions using IRI and the Python IOTA client library, called [PYOTA](https://github.com/iotaledger/iota.lib.py).</p>
 
 <h2>Prerequisites</h2>
 
-<p>To replicate the examples below we need:</p>
+<p>To replicate the examples use the following:</p>
 
 <ul>
 <li>An installation of Python (2.7/3.5/3.6)</li>

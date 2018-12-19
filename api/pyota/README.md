@@ -7,6 +7,4 @@ This section lists resources for learning and using PYOTA
 
 - How-to Guides
     - [Setting up your environment](env.md) for those new to Python
-
-- Examples
     - [Fetching Transactions](FetchTX.md)

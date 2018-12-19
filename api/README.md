@@ -23,7 +23,7 @@ These links go directly to github repositories:
 
 - [High Mobility-Porsche](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/HM.md) securely sending data from onboard a Porsche to the Tangle 
 
-- [AstroPiOTA](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/astropi.md) publishing local environment sensor data to the Tangle
+- [Smart City - AstroPiOTA](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/astropi.md) publishing local environment sensor data to the Tangle
 
 - [Contribute](knowledgebase/contribute.md) your experiments 
 

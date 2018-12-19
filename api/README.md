@@ -19,7 +19,7 @@ These links go directly to github repositories:
 
 #### IoT Experiments
 
-- [Smart Charging](https://github.com/iotaledger/documentation-markdown/blob/develop/) your electric vehicle (EV) and paying with iota  
+- [Smart Charging](https://github.com/iotaledger/documentation-markdown/blob/develop/) your electric vehicle (EV) and paying with iota tokens  
 
 - [High Mobility-Porsche](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/HM.md) securely sending data from onboard a Porsche to the Tangle 
 

@@ -15,4 +15,4 @@ These client libraries include instructions for the following:
 - [PYOTA](pyota/README.md) (IN PROGRESS)
 - [Go](https://github.com/iotaledger/giota)
 
-For more information see the (IOTA API reference guide)[https://iota.readme.io/reference]
+For more information see the [IOTA API reference guide[(https://iota.readme.io/reference)

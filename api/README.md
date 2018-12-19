@@ -15,7 +15,7 @@ These links go directly to github repositories:
 #### Useful Tools
 
 - [IOTA Developers Tangle](https://devnet.thetangle.org) for viewing transactions and visualizing the Tangle
-- [IOTA API reference guide](https://iota.readme.io/reference) for seeing API details and examples
+- [IOTA API reference guide](https://iota.readme.io/reference) for API details and examples
 
 #### Raspberry Pi Examples
 

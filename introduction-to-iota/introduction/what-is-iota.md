@@ -11,23 +11,21 @@
 
 # What is IOTA?
 
-IOTA is a [distributed ledger technology (DLT)](/introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to transfer data and value among each other.
+IOTA is a [distributed ledger technology (DLT)](/introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to transfer tamper-proof data and value (IOTA tokens) among each other.
 
 ## What is the purpose of IOTA?
 
-IOTA allows you to automate data and value transfers to facilitate a machine-to-machine economy.
+IOTA aims to improve efficiency, increase production, and ensure data integrity by developing a technology that faciliates the machine-to-machine economy.
 
-<dl><dt>machine-to-machine economy</dt><dd>Economy in which any computer can transfer value to other computers.</dd></dl>
+<dl><dt>machine-to-machine economy</dt><dd>Economy in which any computer can transfer data and value to other computers without human intervention.</dd></dl>
 
- At the moment, a machine-to-machine economy is impossible. Computers need an identity and permission to connect to a bank before they can have a bank account.
+[Data is the new oil](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data), and IOTA allows you to harness data by storing it on a universal, transparent, tamper-proof ledger. As a result, IOTA opens the flood gates for a world where users can buy and sell data, transfer it for free, and restrict who can see it.
 
-IOTA solves this problem by giving computers a unique, verifiable identity (seed) that allows them to have accounts (addresses) on which they can store value and transfer it in the form of [IOTA tokens](#what-is-the-iota-token-and-why is-it-valuable).
-
-But, IOTA isn't just about sending value. In IOTA, you can also send data, which is set to become the [world's most valuable resource](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data). The IOTA protocol ensures the integrity of data by storing it in an immutible ledger.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gr-LstcDcAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How does IOTA work?
 
-In an IOTA network, data is transferred and stored in packages called transactions, which are handled by the following entities:
+In an IOTA network, data (including the IOTA token) is transferred and stored in packages called transactions, which are handled by the following entities:
 * [**IRI nodes:**](/iri/introduction/overview.md) Computers that are reponsible for storing transactions in a ledger
 * Clients: Computers that create and send transactions to IRI nodes
 
@@ -39,13 +37,20 @@ Transactions can be one of the following types:
 
 ## What is the IOTA token and why is it valuable?
 
-The IOTA token is a finite digital good that's built into the [IOTA MainNet network](/introduction-to-iota/references/iota-networks.md). 
+At its most basic level, the IOTA token is a record that looks like this:
 
-All IRI nodes agree that a mamimum of 2,779,530,283 277,761 tokens exist in the network. This maximum number is built into the network and can't ever be changed.
+    ADDRESS....ENDOFADDRESS;1000
 
-You own IOTA tokens only when the IRI nodes in a network reach a consensus on the balance of your address.
+This record is kept on the ledger of all IRI nodes on the [IOTA MainNet network](/introduction-to-iota/references/iota-networks.md). It might look cryptic, but let's break it down. On the left of the semicolon is an address. These are unique to each client in an IOTA network. On the right of the semicolon is an amount of IOTA tokens that belong to that address, in this case 1,000 tokens.
 
-To reach consensus, all IRI nodes must [validate transactions](/iri/concepts/transaction-validation.md) that transfer IOTA tokens by doing a number of checks, which include checking that the sender owns the tokens.
+You own IOTA tokens only when all IRI nodes reach a consensus about the transactions that transferred those tokens to your addresses.
+
+To reach consensus, all IRI nodes must [validate the transactions](/iri/concepts/transaction-validation.md) by doing a number of checks, which include checking that the sender owned the tokens.
+
+The IOTA token is valuable for two reasons:
+
+* It's finite: All IRI nodes agree that a mamimum of 2,779,530,283 277,761 tokens exist in the network. This maximum number is built into the network and can't ever be changed.
+* It's useful: To transfer value in an IOTA network, you must use the IOTA token. 
 
 ## What are the benefits of IOTA?
 

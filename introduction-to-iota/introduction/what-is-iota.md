@@ -21,7 +21,7 @@ IOTA aims to improve efficiency, increase production, and ensure data integrity 
 
 [Data is the new oil](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data), and IOTA allows you to harness data by storing it on a universal, transparent, tamper-proof ledger. As a result, IOTA opens the flood gates for a world where users can buy and sell data, transfer it for free, and restrict who can see it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gr-LstcDcAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To visualize what IOTA does, watch [this video](https://www.youtube.com/embed/Gr-LstcDcAw) about how IOTA improves supply chains.
 
 ## How does IOTA work?
 

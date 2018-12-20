@@ -12,21 +12,20 @@
 
 # What is IOTA?
 
-IOTA is a [distributed ledger technology (DLT)](/introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to send, store, and access immutible records of data transfers.
+IOTA is a [distributed ledger technology (DLT)](/introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to do the following:
+* Transfer data and value among each other
+* Store an immutible record of all data and value transfers
+* Access records of data and value transfers
 
 ## What is the purpose of IOTA?
 
-IOTA is standardized protocol that gives developers the building blocks for developing applications that make secure, auditable, and automated peer-to-peer transactions.
+IOTA is standardized protocol that offers you the building blocks for developing applications that make automated transactions for the machine-to-machine economy.
 
-The vision of IOTA is clear: To enable a machine-to-machine economy.
+OK, but what's that? A machine-to-machine economy is one in which any computer can transfer value to other computers. At the moment, this type of economy is impossible. Computers need an identity and permission to connect to a bank before they can have a bank account.
 
-OK, but what's that? A machine-to-machine economy is one in which any computer can transfer value to other computers. At the moment, this is impossible because computers need permission to connect to a bank and they need an identity before they can have a bank account.
+IOTA solves this problem by giving computers a unique, verifiable identity (seed) that allows them to have accounts (addresses) on which they can store value and transfer it in the form of [IOTA tokens](#what-is-the-iota-token-and-why is-it-valuable).
 
-IOTA solves this problem with cryptography by creating an automated way of giving computers a unique password (seed) that is used to verify thier identities and allows them to have accounts (addresses) on which they can store value and transfer that value in the form of [IOTA tokens](#what-is-the-iota-token-and-why is-it-valuable).
-
-But IOTA isn't just about sending value. In IOTA, you can also send data, which is set to become the [world's most valuable resource](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data). By allowing computers to send secure data to each other, IOTA opens the flood gates for innovative applications that allow machines to identify and authenticate one another and send encrypted messaging streams that authenticated computers can read.
-
-A machine-to-machine economy could facilitate the birth of a [third industrial revolution](https://www.youtube.com/watch?v=QX3M8Ka9vUA&feature=youtu.be).
+But IOTA isn't just about sending value. In IOTA, you can also send data, which is set to become the [world's most valuable resource](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data). By allowing computers to send secure data to each other, IOTA opens the flood gates for applications that monetize data to bring about a [third industrial revolution](https://www.youtube.com/watch?v=QX3M8Ka9vUA&feature=youtu.be).
 
 ## How does IOTA work?
 
@@ -42,11 +41,13 @@ Transactions can be one of the following types:
 
 ## What is the IOTA token and why is it valuable?
 
-The IOTA token is a scarce digital good that's built into all IRI nodes in an IOTA network. 
+The IOTA token is a scarce digital good that's built into the [IOTA MainNet network](/introduction-to-iota/references/iota-networks.md). 
 
-The token is scarce because all IRI nodes agree that a mamimum of 2,779,530,283 277,761 tokens exist in the network. This maximum number can't ever be changed because it's built into the IOTA protocol in every IRI node.
+All IRI nodes agree that a mamimum of 2,779,530,283 277,761 tokens exist in the network. This maximum number is built into the network and can't ever be changed.
 
-Before a transaction can be confirmed by an IOTA network, IRI nodes must [validate the transaction](/iri/concepts/transaction-validation.md) by doing a number of checks, which include checking that the sender owns the tokens.
+You own IOTA tokens only when the IRI nodes in a network reach a consensus on the balance of your address.
+
+To reach consensus, all IRI nodes must [validate transactions](/iri/concepts/transaction-validation.md) that transfer IOTA tokens by doing a number of checks, which include checking that the sender owns the tokens.
 
 ## What are the benefits of IOTA?
 
@@ -56,9 +57,7 @@ IOTA is an open-source technology that can streamline, secure, and automate any 
 
 All transactions in the ledger are immutible and transparent.
 
-Each IRI node in an IOTA network validates and stores transactions in its ledger, then sends its contents to other IRI nodes that do the same. As a result, all valid transactions are agreed on by nodes, removing the need to trust any individual in the network.
-
-Each transaction in the ledger must reference at least two other transactions. This referencing model is called a directed acyclic graph (DAG), which creates an audit trail of all transactions in an IOTA network.
+Each IRI node in an IOTA network validates and stores transactions in its ledger, then sends its contents to other IRI nodes that do the same. As a result, all valid transactions are agreed on by all nodes, removing the need to trust a single one in the network.
 
 ### Security
 
@@ -72,7 +71,7 @@ IOTA is free to use. You don't need to pay a subscription, or sign a contract. E
 
 ### Scalable
 
-For each transaction that IRI nodes append to their ledger, they validate two previous transactions. This process makes IOTA incredibly scalable because the more new transactions that propagate through the network, the faster other transactions are validated.
+For each transaction that's appended to the ledger validates two previous transactions. This process makes IOTA incredibly scalable because the more new transactions that propagate through the network, the faster other transactions are validated.
 
 This process forms a data structure called a directed acyclic graph (DAG), which we call the Tangle.
 

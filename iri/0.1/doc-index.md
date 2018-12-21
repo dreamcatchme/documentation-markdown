@@ -1,29 +1,18 @@
 # Index
 
-[Introduction/White Paper](./introduction/intro-white-paper.md)
-
-[Introduction/Consensus](./introduction/consensus.md)
-
-[Introduction/Research Questions](./introduction/research-questions.md)
-
-[Consensus/Introduction](./consensus/introduction.md)
-
-[Consensus/Coordinator](./consensus/coordinator.md)
-
-[Consensus/Further Research](./consensus/further-research.md)
-
-[Tip Selection/Introduction](./tip-selection/introduction.md)
-
-[Tip Selection/Incentives](./tip-selection/incentives.md)
-
-[Tip Selection/Tip Selection](./tip-selection/tip-selection.md)
-
-[Tip Selection/Glossary](./tip-selection/glossary.md) -
-
-[Proof of Work/Introduction](./proof-of-work/introduction.md)
-
-[Proof of Work/IOTA's PoW](./proof-of-work/iotas-pow.md)
-
-[Proof of Work/Checking PoW](./proof-of-work/checking-pow.md)
-
-[Proof of Work/Difficulty of PoW](./proof-of-work/difficulty-of-pow.md)
+[Introduction/Overview](/iri/introduction/overview.md)
+[How-to Guides/Downloading the IRI on Linux](/iri/how-to-guides/downloading-the-iri-on-linux.md)
+[How-to Guides/Downloading the IRI from a Docker](how-to-guides/downloading-the-iri-from-a-docker-container.md)
+[How-to Guides/Finding neighbors](/iri/how-to-guides/finding-neighbors.md)
+[How-to Guides/Running the IRI](/iri/how-to-guides/running-the-iri.md)
+[How-to Guides/Updating the IRI](/iri/how-to-guides/updating-the-iri.md)
+[How-to Guides/Troubleshooting IRI](/iri/how-to-guides/troubleshooting-the-iri.md)
+[How-to Guides/Interacting with IRI](/iri/how-to-guides/interacting-with-the-iri.md)
+[How-to Guides/Subscribing to events](/iri/how-to-guides/subscribing-to-events-in-the-iri.md)
+[Concepts/The distributed ledger](/iri/concepts/the-distributed-ledger.md)
+[Concepts/Tip selection](/iri/concepts/tip-selection.md)
+[Concepts/Transaction validation](/iri/concepts/transaction-validation.md)
+[Concepts/Zero message queue](/iri/concepts/zero-message-queue.md)
+[References/Data in the ledger](/iri/references/data-in-the-ledger.md)
+[References/IRI configuration options](/iri/references/iri-configuration-options.md)
+[References/ZMQ events](/iri/references/zmq-events.md)

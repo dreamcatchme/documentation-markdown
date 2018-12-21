@@ -2,7 +2,7 @@
 
 The Spamnet is a Tangle operated by the IOTA Foundation for developers to test the throughput of the current IRI version. This is enables developers from the community and the IOTA Foundation to test the latest IRI and view its ability to handle load.
 
-The Foundation hosts nodes which are open to API calls and requests. We aslo provide nodes that are able to provide peering (UDP) to those wanting to run their own nodes.
+The Foundation hosts nodes which are open to API calls and requests. We also provide nodes that are able to provide peering (UDP) to those wanting to run their own nodes.
 
 ## Configuration
 
@@ -24,7 +24,7 @@ Check out the Node documentation [here](/iri/)
 https://nodes.spamnet.iota.org:443
 ```
 
-### Realtime Message Stream - ØMQ
+### Real time Message Stream - ØMQ
 
 This provides access to the Zero Message Queue of the IRI
 node. This provides the ability to subscribe to the Node in various ways.
@@ -71,7 +71,7 @@ WYF9OOFCQJRTLTRMREDWPOBQ9KNDMFVZSROZVXACAWKUMXAIYTFQCPAYZHNGKIWZZGKCSHSSTRDHDAJC
 
 On the 1st of September 2018 the Spamnet ledger was reset.
 
-### Neighbours
+### Neighbors
 
 As mentioned in the INI file above, the following nodes have autopeering enabled over UDP:
 
@@ -80,7 +80,7 @@ udp://p101.spamnet.iota.cafe:14600
 udp://p102.spamnet.iota.cafe:14600
 ```
 
-These nodes will automatically accept new neighbours and do not require manual peering. However keep in mind that the number of neighbours is currently capped at 128 each p10n server. For this reason you are very welcome to exchange your own Spamnet IRI URLs over to #tanglespam in Discord, to allow other node operators to participate in the Spamnet network.
+These nodes will automatically accept new neighbors and do not require manual peering. However keep in mind that the number of neighbors is currently capped at 128 each p10n server. For this reason you are very welcome to exchange your own Spamnet IRI URLs over to #tanglespam in Discord, to allow other node operators to participate in the Spamnet network.
 
 ### Tokens
 

@@ -12,17 +12,15 @@ The Devent is primarily comprised of servers hosted by the IOTA Foundation. The 
 
 **Minimum Weight Magnitude**
 
-The Devnet **requires a minimum of 9** MWM (Minimum Wieght Magnitude). This vastly reduces the difficulty of the Proof of Work (PoW) required to send a transaction. Given this you will see your application or solution completing PoW slower on the Mainnet when it is in production.
+The Devnet **requires a minimum of 9** MWM (Minimum Weight Magnitude). This vastly reduces the difficulty of the Proof of Work (PoW) required to send a transaction. Given this you will see your application or solution completing PoW slower on the Mainnet when it is in production.
 
 **Devnet Tokens **
 
-The Devnet has a faucet website that will send 1000 Devnet IOTA tokens to a specified addres. Follow the prompts here to received the tokens:
+The Devnet has a faucet website that will send 1000 Devnet IOTA tokens to a specified address. Follow the prompts here to received the tokens:
 
 ```
 https://faucet.devnet.iota.org
 ```
-
-
 
 ---
 
@@ -72,7 +70,7 @@ The current Devent database is more than 30GB. We have regularly updated snapsho
 
 The database is available for download [here](https://s3.eu-central-1.amazonaws.com/iotaledger-dbfiles/testnet/db-latest.tgz) and usually requires the latest version of IRI.
 
-### Neighbours
+### Neighbors
 
 The following nodes have autopeering enabled over UDP:
 

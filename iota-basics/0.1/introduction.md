@@ -2,7 +2,7 @@
 
 The IOTA Token is a `cryptotoken` built upon the Tangle technology. The native token benefits from the advantages of this new Tangle architecture.
 
-The token operates on a permission-less Tangle network known as the **Mainnet**. Individuals are able to interact with this network by operating a full node that is peered with neighbours. Alternatively they are able to public Mainnet nodes operated by a third party.
+The token operates on a permission-less Tangle network known as the **Mainnet**. Individuals are able to interact with this network by operating a full node that is peered with neighbors. Alternatively they are able to public Mainnet nodes operated by a third party.
 
 ### Token Generation
 
@@ -14,7 +14,7 @@ The total supply of IOTA is `(3^33-1) / 2`, which equals to a total number of IO
 
 This supply fits nicely into the `MAX_SAFE_INTEGER` value in Javascript.
 
-### Supply Etomology
+### Supply Etymology
 
 Since the number of tokens is quite high we adhere to the SI notation to write in short hand to denote a large number of tokens. Here is a breakdown of the notation:
 

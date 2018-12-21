@@ -12,8 +12,6 @@
 
 [Seeds, Private Keys & Accounts/Private Keys & Accounts](/seeds-privatekeys-accounts/private-keys-accounts.md)
 
-[Seeds, Private Keys & Accounts/Multi Sig](/seeds-privatekeys-accounts/multi-sig.md)
-
 [Transactions/Anatomy of a Transaction](/transactions/anatomy-of-a-transaction.md)
 
 [Transactions/Bundle Construction](/transactions/bundle-construction.md)

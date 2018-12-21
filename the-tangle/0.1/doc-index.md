@@ -4,13 +4,9 @@
 
 [Introduction/Consensus](./introduction/consensus.md)
 
-[Introduction/Research Questions](./introduction/research-questions.md)
-
 [Consensus/Introduction](./consensus/introduction.md)
 
 [Consensus/Coordinator](./consensus/coordinator.md)
-
-[Consensus/Further Research](./consensus/further-research.md)
 
 [Tip Selection/Introduction](./tip-selection/introduction.md)
 

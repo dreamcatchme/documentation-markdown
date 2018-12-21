@@ -4,7 +4,7 @@
 
 [Getting started/Creating a seed](introduction-to-iota/getting-started/creating-a-seed.md)
 
-[Getting started for developers/Sending your first transaction](introduction-to-iota/getting-started-for-developers/sending-your-first-transaction.md)
+[Getting started/Sending your first transaction using Node.js](introduction-to-iota/getting-started/sending-your-first-transaction-using-nodejs.md)
 
 [Concepts/Distributed ledger technology](introduction-to-iota/concepts/distributed-ledger-technology.md)
 

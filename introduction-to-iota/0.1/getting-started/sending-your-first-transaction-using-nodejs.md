@@ -1,4 +1,4 @@
-# Sending your first transaction
+# Sending your first transaction using Node.js
 
 In this tutorial, you'll learn how to set up your environment and send your first data transaction on the [IOTA DevNet network](references/iota-networks.md). Sending up a value transaction is essentially the same, but it requires a [seed](getting-started/creating-a-seed.md) that has addresses with IOTA tokens.
 
@@ -6,8 +6,8 @@ In this tutorial, you'll learn how to set up your environment and send your firs
 
 To complete this tutorial, you need the following:
 
-* Node.js 8+
-* Node Package Manager (NPM)
+* [Node.js 8+](https://nodejs.org/en/)
+* [Node Package Manager](https://www.npmjs.com/) (NPM)
 * Code editor
 * Access to a terminal
 * An Internet connection

@@ -1,8 +1,8 @@
 # Index
 
-[Introduction](/introduction/introduction.md)
+[Introduction](/introduction.md)
 
-[Consensus/Introduction](/consensus/introduction.md)
+[Consensus/Introduction](/consensus/consensus.md)
 
 [Consensus/Coordinator](/consensus/coordinator.md)
 

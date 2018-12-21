@@ -3,21 +3,21 @@
 ---------------
 
 #### **JavaScript Library** ####
-[Link](iota-js.md)
+[Link](root:://iota-js/0.1/README.md)
 
 This is the official JavaScript client library. Implements official API and additional features. Currently in beta.
 
 ---
 
 #### __Java Library__ ####
-[Link](iota-java.md)
+[Link](root:://iota-java/0.1/README.md)
 
 This is the official Java client library. Implements official API and additional features. Currently in beta.
 
 ---
 
 #### __Golang Library__ ####
-[Link](iota-go.md)
+[Link](root:://iota-go/0.1/README.md)
 
 This is the official Go client library. Implements official API and additional features. Currently in beta.
 

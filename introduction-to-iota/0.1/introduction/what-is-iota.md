@@ -11,7 +11,7 @@
 
 # What is IOTA?
 
-IOTA is a [distributed ledger technology (DLT)](introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to transfer tamper-proof data and value (IOTA tokens) among each other.
+IOTA is a [distributed ledger technology (DLT)](concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to transfer tamper-proof data and value (IOTA tokens) among each other.
 
 ## What is the purpose of IOTA?
 
@@ -94,6 +94,6 @@ Therefore, many industries such as the following could benefit from using IOTA:
 
 [Start your IOTA journey by creating your first seed.](getting-started/creating-a-seed.md)
 
-[Take a look at some application that are already using IOTA.](introduction-to-iota/references/use-cases.md)
+[Take a look at some application that are already using IOTA.](references/use-cases.md)
 
 Are you a developer? Get stuck in by [sending your first transaction](getting-started/sending-your-first-transaction-using-nodejs.md)!

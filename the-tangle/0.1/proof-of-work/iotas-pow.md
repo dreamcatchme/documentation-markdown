@@ -14,4 +14,4 @@ For example: `POWSRVIO9GW99999FMGEGVMMMMM`
 
 In order to calculate Proof of Work for the transaction information is converted from Trytes to Trits and then a hash of 243 Trits is produced. This hash is then checked to see if the required number of 0s are on the end of the transaction has. If there are less then the required number of 0s at the end of the transaction hash then the `Nonce` field is mutated and the process is repeated until a Nonce is found that has the required number of trialing 0s.
 
-The code used to calculate a transaction's nonce in the IOTA Reference Implementation (IRI) node software: [Here](https://github.com/iotaledger/iri/blob/fcf2d105851ee891b093e2857592fa05258ec5be/src/main/java/com/iota/iri/crypto/PearlDiver.java)
+Code used to calculate a transaction's nonce in the node software can be seen [here](https://github.com/iotaledger/iri/blob/fcf2d105851ee891b093e2857592fa05258ec5be/src/main/java/com/iota/iri/crypto/PearlDiver.java).

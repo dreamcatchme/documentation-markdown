@@ -1,6 +1,10 @@
 # Checking Proof of Work 
 
-Describe how PoW is validate
+Validating the Proof of Work is done when the node software receives a new transaction. This is done along side a ledger consistency check. 
+
+## Code Example
+
+The following snippet is able to validate PoW in Javascript. 
 
 ```javascript
 ////////////// Find MWM of TX ////////////
@@ -10,6 +14,10 @@ Describe how PoW is validate
 // 4. Reverse the Array (Pow finds a hash with MWM of zeros at the end)
 // 5. Map through the array to find the first index that is not 0
 // 6. Saves this new array of indexes
+// 7. Checks if the index if lower than MWM
+
+const Crypto = require('iota.crypto.js')
+const IOTA = require('iota.lib.js')
 
 const validatePow = async (bundleHash, mwm) => {
     const bundles = await iota.findTransactionObjects({ bundles: [bundleHash]})

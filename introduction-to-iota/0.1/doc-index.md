@@ -1,29 +1,13 @@
 # Index
 
-[Introduction/White Paper](./introduction/intro-white-paper.md)
+[Introduction/What is IOTA?](introduction-to-iota/introduction/what-is-iota.md)
 
-[Introduction/Consensus](./introduction/consensus.md)
+[Introduction/What is a DLT?](introduction-to-iota/introduction/what-is-a-dlt.md)
 
-[Introduction/Research Questions](./introduction/research-questions.md)
+[Getting started/Creating a seed](introduction-to-iota/getting-started/creating-a-seed.md)
 
-[Consensus/Introduction](./consensus/introduction.md)
+[Getting started/Sending your first transaction using Node.js](introduction-to-iota/getting-started/sending-your-first-transaction-using-nodejs.md)
 
-[Consensus/Coordinator](./consensus/coordinator.md)
+[References/IOTA networks](introduction-to-iota/references/iota-networks.md)
 
-[Consensus/Further Research](./consensus/further-research.md)
-
-[Tip Selection/Introduction](./tip-selection/introduction.md)
-
-[Tip Selection/Incentives](./tip-selection/incentives.md)
-
-[Tip Selection/Tip Selection](./tip-selection/tip-selection.md)
-
-[Tip Selection/Glossary](./tip-selection/glossary.md) -
-
-[Proof of Work/Introduction](./proof-of-work/introduction.md)
-
-[Proof of Work/IOTA's PoW](./proof-of-work/iotas-pow.md)
-
-[Proof of Work/Checking PoW](./proof-of-work/checking-pow.md)
-
-[Proof of Work/Difficulty of PoW](./proof-of-work/difficulty-of-pow.md)
+[References/Use cases](introduction-to-iota/references/use-cases.md)

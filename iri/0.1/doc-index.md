@@ -1,8 +1,8 @@
 # Index
 
 [Introduction/Overview](/iri/introduction/overview.md)
-[How-to Guides/Downloading the IRI on Linux](/iri/how-to-guides/downloading-the-iri-on-linux.md)
-[How-to Guides/Downloading the IRI from a Docker](how-to-guides/downloading-the-iri-from-a-docker-container.md)
+[How-to Guides/IRI on Linux](/iri/how-to-guides/downloading-the-iri-on-linux.md)
+[How-to Guides/IRI from a Docker](how-to-guides/downloading-the-iri-from-a-docker-container.md)
 [How-to Guides/Finding neighbors](/iri/how-to-guides/finding-neighbors.md)
 [How-to Guides/Running the IRI](/iri/how-to-guides/running-the-iri.md)
 [How-to Guides/Updating the IRI](/iri/how-to-guides/updating-the-iri.md)

@@ -1,7 +1,7 @@
 # Index
 
-[Overview](/introduction/overview.md)
-[Concepts/Use Cases](/Concepts/usecases.md)
+[Overview](/overview.md)
+[Concepts/Use Cases](/concepts/usecases.md)
 [Concepts/Architecture](/concepts/architecture.md)
 [Concepts/Functions](/concepts/functions.md)
 [Concepts/Security](/concepts/security.md)

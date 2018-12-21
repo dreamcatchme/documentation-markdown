@@ -45,4 +45,4 @@ You must keep your seed safe and back it up. If you lose your seed, you can't re
 
 ## Next steps
 
-Now that you've got a seed, you can enter it in the [Trinity wallet](https://trinity.iota.org/) and start sending transactions :tada:
+Now that you've got a seed, you can download the [Trinity wallet](https://trinity.iota.org/), enter your seed, and start sending transactions :tada:

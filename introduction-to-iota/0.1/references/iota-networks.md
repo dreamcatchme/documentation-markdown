@@ -1,11 +1,11 @@
 # IOTA networks
 
-IOTA has three [permissionless networks](/introduction-to-iota/concepts/distributed-ledger-technology.md) (public) that anyone can use or participate in:
+IOTA has three [permissionless networks](introduction-to-iota/concepts/distributed-ledger-technology.md) (public) that anyone can:
 * MainNet
 * DevNet
 * SpamNet
 
-If you want to create and test an application on a permissioned network (private), you can do so by running [Compass](/compass/introduction/overview.md).
+If you want to create and test an application on a permissioned network (private), you can do so by running [Compass](compass/introduction/overview.md).
 
 ## MainNet
 

@@ -5,15 +5,15 @@ This section introduces users to IOTA by giving them a foundation of knowledge t
 ## Documentation
 
 - Introduction
-    - [What is IOTA?](/introduction-to-iota/introduction/what-is-iota.md)
+    - [What is IOTA?](introduction/what-is-iota.md)
   
 - Getting started
-    - [Creating a seed](/introduction-to-iota/getting-started/creating-a-seed.md)
+    - [Creating a seed](getting-started/creating-a-seed.md)
   
 - Concepts
-    - [Distributed ledger technology](/introduction-to-iota/concepts/distributed-ledger-technology.md)
+    - [Distributed ledger technology](concepts/distributed-ledger-technology.md)
 
 - References
-    - [IOTA networks](/introduction-to-iota/references/iota-networks.md)
-    - [Use cases](/introduction-to-iota/references/use-cases.md)
+    - [IOTA networks](references/iota-networks.md)
+    - [Use cases](references/use-cases.md)
 

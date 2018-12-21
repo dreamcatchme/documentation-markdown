@@ -1,21 +1,57 @@
-## Client Libraries
+### **OFFICIAL SUPPORT** ###
 
-Sending and receiving transactions directly through the Tangle using the IRI API requires an in-depth understanding of the IOTA protocol.  To make it easier, several client libraries are available.  Documentation for JavaScript and PYOTA libraries includes examples and guidance for learners, as well as, experienced developers.
+---------------
 
-- [JavaScript](https://github.com/iotaledger/iota.lib.js)
-- [PYOTA](pyota/README.md)
+#### **JavaScript Library** ####
+[Link](iota-js.md)
 
-These links go directly to github repositories:
+This is the official JavaScript client library. Implements official API and additional features. Currently in beta.
 
-- [JAVA](https://github.com/iotaledger/iota.lib.java)
-- [C](https://github.com/iotaledger/entangled)
-- [C++](https://github.com/thibault-martinez/iota.lib.cpp)
-- [Go](https://github.com/iotaledger/giota)
+---
 
-#### Useful Tools
+#### __Java Library__ ####
+[Link](iota-java.md)
 
-- [IOTA Developers Tangle](https://devnet.thetangle.org) for viewing transactions and visualizing the Tangle
-- [IOTA API reference guide](https://iota.readme.io/reference) for API details and examples
+This is the official Java client library. Implements official API and additional features. Currently in beta.
+
+---
+
+#### __Golang Library__ ####
+[Link](iota-go.md)
+
+This is the official Go client library. Implements official API and additional features. Currently in beta.
+
+---------------
+
+---
+
+### __COMMUNITY SUPPORT__ ###
+
+---------------
+
+#### __Python Library__ ####
+[Link](https://github.com/iotaledger/iota.lib.py)
+
+Python library. Implements core and extended functionality.
+
+---
+
+#### **C# Library** ####
+[Link](https://github.com/iota-community/tangle-.net)
+
+A C# .NET 4.6 client library. Implements core and extended functionality.
+
+
+---------------
+
+---
+
+Sending and receiving transactions directly through the Tangle using the IRI API requires an in-depth understanding of the IOTA protocol. Integrating with the IOTA protocol can be done with one of the available client libraries.
+
+#### Useful Links
+
+- [IOTA Developers Tangle](https://www.thetangle.org) for viewing transactions and visualizing the Tangle
+- [Official Discord](https://discord.gg/NaAy8k7) join the discussion in language-specific channels.
 
 #### IoT Experiments
 
@@ -25,6 +61,4 @@ These links go directly to github repositories:
 
 - [Smart City - AstroPiOTA](https://github.com/iotaledger/documentation-markdown/blob/develop/mam/knowledgebase/astropi.md) publishing local environment sensor data to the Tangle
 
-- [Contribute](knowledgebase/contribute.md) your experiments 
-
-
+- [Contribute](knowledgebase/contribute.md) your experiments

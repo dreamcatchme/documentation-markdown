@@ -1,6 +1,6 @@
 # Index
 
-[Introduction](/introduction.md)
+[Overview](/overview.md)
 
 [Networks/The Mainnet](/networks/the-mainnet.md)
 

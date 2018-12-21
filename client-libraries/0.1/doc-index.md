@@ -1,6 +1,6 @@
 # Index
 
-[Introduction](introduction.md)
+[Overview](overview.md)
 
 [IOTA JS](root://iota-js/0.1/README.md)
 

@@ -9,6 +9,9 @@ This section introduces users to IOTA by giving them a foundation of knowledge t
   
 - Getting started
     - [Creating a seed](getting-started/creating-a-seed.md)
+
+- Getting started for developers
+    - [Sending your first transaction](getting-started-for-developers/sending-your-first-transaction.md)
   
 - Concepts
     - [Distributed ledger technology](concepts/distributed-ledger-technology.md)

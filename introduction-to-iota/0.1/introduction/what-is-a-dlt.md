@@ -1,4 +1,4 @@
-# Distributed ledger technology
+# What is a DLT?
 
 Distributed ledger technology (DLT) is a database architecture that allows the owners of digital goods to transfer them to different parties in a network. Each transfer is kept as an immutible record in ledgers that are distributed among all nodes in a DLT network.
 
@@ -11,7 +11,7 @@ DLT can have two types of ledger:
 
 **Permissioned ledger:** A ledger that's distributed only among nodes that are preselected by a central authority such as a bank or a government.
 
-## Why problems does DLT solve?
+## What problems does DLT solve?
 
 When data is stored in proprietary databases, it's difficult to share that data with others without it becoming mutated and lost in other databases that are owned by different authorities.
 
@@ -22,3 +22,7 @@ DLT creates a single source of truth that all participants can trust. DLT automa
 DLT facilitates the transfer of data such as digital goods without the need for any middlemen by automating the validation of digital transfers.
 
 The validation of digital transfers is automated by nodes, which run software that contains a DLT's protocol (this protocol is unique to each DLT). For example, a DLT protocol may define a way for nodes to verify that senders owns the data they are trying to transfer.
+
+## Next steps
+
+[Learn about IOTA](introduction/what-is-iota.md).

@@ -11,7 +11,7 @@
 
 # What is IOTA?
 
-IOTA is a [distributed ledger technology (DLT)](/introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to transfer tamper-proof data and value (IOTA tokens) among each other.
+IOTA is a [distributed ledger technology (DLT)](introduction-to-iota/concepts/distributed-ledger-technology.md) that allows computers in an IOTA network to transfer tamper-proof data and value (IOTA tokens) among each other.
 
 ## What is the purpose of IOTA?
 
@@ -26,7 +26,7 @@ To visualize what IOTA does, watch [this video](https://www.youtube.com/embed/Gr
 ## How does IOTA work?
 
 In an IOTA network, data (including the IOTA token) is transferred and stored in packages called transactions, which are handled by the following entities:
-* [**IRI nodes:**](/iri/introduction/overview.md) Computers that are reponsible for storing transactions in a ledger
+* [**IRI nodes:**](iri/introduction/overview.md) Computers that are reponsible for storing transactions in a ledger
 * Clients: Computers that create and send transactions to IRI nodes
 
 Each client in an IOTA network has a secret password called a seed, which is used to generate unique addresses and digital signatures. Addresses are the accounts from which transactions are sent and received. Digital signatures prove ownership of an account and allow value transactions to be sent from addresses.
@@ -41,11 +41,11 @@ At its most basic level, the IOTA token is a record that looks like this:
 
     ADDRESS....ENDOFADDRESS;1000
 
-This record is kept on the ledger of all IRI nodes on the [IOTA MainNet network](/introduction-to-iota/references/iota-networks.md). It might look cryptic, but let's break it down. On the left of the semicolon is an address. These are unique to each client in an IOTA network. On the right of the semicolon is an amount of IOTA tokens that belong to that address, in this case 1,000 tokens.
+This record is kept on the ledger of all IRI nodes on the [IOTA MainNet network](references/iota-networks.md). It might look cryptic, but let's break it down. On the left of the semicolon is an address. These are unique to each client in an IOTA network. On the right of the semicolon is an amount of IOTA tokens that belong to that address, in this case 1,000 tokens.
 
 You own IOTA tokens only when all IRI nodes reach a consensus about the transactions that transferred those tokens to your addresses.
 
-To reach consensus, all IRI nodes must [validate the transactions](/iri/concepts/transaction-validation.md) by doing a number of checks, which include checking that the sender owned the tokens.
+To reach consensus, all IRI nodes must [validate the transactions](iri/concepts/transaction-validation.md) by doing a number of checks, which include checking that the sender owned the tokens.
 
 The IOTA token is valuable for two reasons:
 

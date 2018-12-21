@@ -25,4 +25,4 @@ The validation of digital transfers is automated by nodes, which run software th
 
 ## Next steps
 
-[Learn about IOTA](introduction/what-is-iota.md).
+[Learn about IOTA](what-is-iota.md).

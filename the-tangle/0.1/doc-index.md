@@ -2,15 +2,9 @@
 
 [Introduction/White Paper](./introduction/intro-white-paper.md)
 
-[Introduction/Consensus](./introduction/consensus.md)
-
-[Introduction/Research Questions](./introduction/research-questions.md)
-
 [Consensus/Introduction](./consensus/introduction.md)
 
 [Consensus/Coordinator](./consensus/coordinator.md)
-
-[Consensus/Further Research](./consensus/further-research.md)
 
 [Tip Selection/Introduction](./tip-selection/introduction.md)
 
@@ -18,7 +12,7 @@
 
 [Tip Selection/Tip Selection](./tip-selection/tip-selection.md)
 
-[Tip Selection/Glossary](./tip-selection/glossary.md) -
+[Tip Selection/Glossary](./tip-selection/glossary.md)
 
 [Proof of Work/Introduction](./proof-of-work/introduction.md)
 

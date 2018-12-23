@@ -1,7 +1,5 @@
 # Trinity
 
-To Do:  Add files from https://docs.iota.works/
-
 This section explains the Trinity Wallet
 
 ## Documentation
@@ -11,24 +9,23 @@ This section explains the Trinity Wallet
   - [Bug Bounty](Introduction/bugBounty.md)
 
 - Safeguarding Your Wallet
-  - [Seed Generation](QuickStart/SeedGeneration.md)
-  - [Seed Backup](QuickStart/SeedBackup.md)
-  - [Account Name](QuickStart/MobileAccountName.md)
-  - [Account Password](QuickStart/MobileAccountPassword.md)
+  - [Seed Generation](safeguarding/SeedGeneration.md)
+  - [Seed Backup](safeguarding/SeedBackup.md)
+  - [Account Name](safeguarding/AccountName.md)
+  - [Account Password](safeguarding/AccountPassword.md)
 
 - How-to Guides
-  - [Using Trinity](Interact/WalletActions.md)
-  - [Receiving Funds](Interact/ReceivingFunds.md)
-  - [Sending Funds](Interact/SendingFunds.md)
-  - [Settings](Interact/Settings.md)
+  - [Using Trinity](how-to/WalletActions.md)
+  - [Receiving Funds](how-to/ReceivingFunds.md)
+  - [Sending Funds](how-to/SendingFunds.md)
+  - [Settings](how-to/Settings.md)
 
 - Concepts
-  - [Security](Info/Security.md)
-  - [Hardware Wallet Security](Info/hardware-wallet.md)
-  - [Architecture](Info/components.md)
-  - [Functions](Info/functions.md)
-  - [QR Codes](Info/QRCodes.md)
-  - [FAQs](Info/FAQs.md)
+  - [Hardware Wallet Security](concepts/hardware-wallet.md)
+  - [Architecture](concepts/components.md)
+  - [Functions](concepts/functions.md)
+  - [QR Codes](concepts/QRCodes.md)
+  - [FAQs](concepts/FAQs.md)
 
 - How-to Participate 
   - [Contribute](knowledgebase/contribute.md)

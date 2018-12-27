@@ -1,10 +1,10 @@
-# What is a DLT?
+# What is distributed ledger technology?
 
-Distributed ledger technology (DLT) is a database architecture that allows the owners of digital goods to transfer them to different parties in a network. Each transfer is kept as an immutible record in ledgers that are distributed among all nodes in a DLT network.
+Distributed ledger technology (DLT) is a database architecture that allows the owners of digital goods to transfer them from peer to peer. Each transfer is kept as an immutible record in ledgers that are distributed among all computers (nodes) in a DLT network.
 
 ## What is a distributed ledger?
 
-A distributed ledger is a database of valid transfers, which is held by all participating computers (nodes) in a network.
+A distributed ledger is a database of valid transfers, which is held by all participating nodes in a network.
 
 DLT can have two types of ledger:
 * **Permissionless ledger:** A ledger that's distributed among nodes, which can be run by anyone without permission. The purpose of a permissionless ledger is to allow anyone to contribute data to the ledger and for everyone in possession of the ledger to have identical copies. Nodes maintain the integrity of the ledger by reaching a consensus about its state. A permissionless ledger can be used as an immutible global record of data transfers.
@@ -15,7 +15,7 @@ DLT can have two types of ledger:
 
 When data is stored in proprietary databases, it's difficult to share that data with others without it becoming mutated and lost in other databases that are owned by different authorities.
 
-DLT creates a single source of truth that all participants can trust. DLT automates the process of data validation and data storage.
+DLT creates a single source of truth that all participants can trust by automating the process of data validation and data storage across an entire network of nodes.
 
 <hr>
 
@@ -25,4 +25,4 @@ The validation of digital transfers is automated by nodes, which run software th
 
 ## Next steps
 
-[Learn about IOTA](what-is-iota.md).
+[Learn about IOTA and the IOTA protocol](what-is-iota.md).
